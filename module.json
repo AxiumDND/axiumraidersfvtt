@@ -3,7 +3,7 @@
   "name": "axiumraidersfvtt",
   "title": "Axium Raiders of the serpent sea",
   "description": "Assets for Raiders of the serpents seas.  Art, tokens scenes.",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "minimumCoreVersion": "0.8.6",
   "compatibleCoreVersion": "12",
   "compatibility": {
@@ -57,7 +57,7 @@
     {
       "name": "maps",
       "label": "Raiders of the serpent sea",
-      "path": "/packs/maps.db",
+      "path": "/packs/fvtt-Scene-pack-dnd5e-rotssscenes",
       "entity": "Scene",
       "type": "Scene"
     },
