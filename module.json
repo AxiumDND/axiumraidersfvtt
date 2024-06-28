@@ -1,0 +1,86 @@
+{
+  "id": "axiumraidersfvtt",
+  "name": "axiumraidersfvtt",
+  "title": "Raiders of the serpent sea",
+  "description": "Assets for Raiders of the serpents seas.  Art, tokens scenes.",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "12",
+  "compatibility": {
+    "minimum": "0.8.6",
+    "verified": "12"
+  },
+  "author": "Axium",
+  "authors": [
+    {
+      "name": "Axium"
+    }
+  ],
+  "packs": [
+    {
+      "name": "actors",
+      "label": "Raiders of the serpent sea",
+      "path": "/packs/actors.db",
+      "entity": "Actor",
+      "type": "Actor",
+      "system": "dnd5e"
+    },
+    {
+      "name": "cards",
+      "label": "Raiders of the serpent sea",
+      "path": "/packs/cards.db",
+      "entity": "Cards",
+      "type": "Cards"
+    },
+    {
+      "name": "items",
+      "label": "Raiders of the serpent sea",
+      "path": "/packs/items.db",
+      "entity": "Item",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "journals",
+      "label": "Raiders of the serpent sea",
+      "path": "/packs/journals.db",
+      "entity": "JournalEntry",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "macros",
+      "label": "Raiders of the serpent sea",
+      "path": "/packs/macros.db",
+      "entity": "Macro",
+      "type": "Macro"
+    },
+    {
+      "name": "maps",
+      "label": "Raiders of the serpent sea",
+      "path": "/packs/maps.db",
+      "entity": "Scene",
+      "type": "Scene"
+    },
+    {
+      "name": "playlists",
+      "label": "Raiders of the serpent sea",
+      "path": "/packs/playlists.db",
+      "entity": "Playlist",
+      "type": "Playlist"
+    },
+    {
+      "name": "rolltables",
+      "label": "Raiders of the serpent sea",
+      "path": "/packs/rolltables.db",
+      "entity": "RollTable",
+      "type": "RollTable"
+    }
+  ],
+  "esmodules": [
+    "./scripts/init.js"
+  ],
+  "url": "https://github.com/AxiumDND/Axium_Raiders_FVTT",
+  "manifest": "",
+  "download": "",
+  "manifestPlusVersion": "1.2.0"
+}
