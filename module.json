@@ -57,7 +57,7 @@
     {
       "name": "maps",
       "label": "Raiders of the serpent sea",
-      "path": "/packs/fvtt-Scene-pack-dnd5e-rotssscenes.json",
+      "path": "/packs/maps.db",
       "entity": "Scene",
       "type": "Scene"
     },
