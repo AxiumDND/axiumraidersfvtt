@@ -1,0 +1,2711 @@
+{
+  "package": "world.rotssscenes",
+  "metadata": {
+    "name": "rotssscenes",
+    "label": "ROTSS_Scenes",
+    "path": "worlds/raiders-of-the-serpent-sea-v12/packs/rotssscenes",
+    "type": "Scene",
+    "system": "dnd5e",
+    "ownership": {
+      "PLAYER": "OBSERVER",
+      "ASSISTANT": "OWNER"
+    },
+    "flags": {},
+    "packageType": "world",
+    "packageName": "raiders-of-the-serpent-sea-v12",
+    "id": "world.rotssscenes"
+  },
+  "type": "Scene",
+  "items": [
+    {
+      "folder": "EIxSkOLB42tVZ3oU",
+      "name": "Travel to Far Landing *",
+      "navigation": false,
+      "navOrder": 0,
+      "navName": "",
+      "background": {
+        "src": null,
+        "anchorX": 0,
+        "anchorY": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "foreground": null,
+      "foregroundElevation": 20,
+      "thumb": "worlds/raiders-of-the-serpent-sea-v12/assets/scenes/3k3ImuNUy5KGnZeO-thumb.webp",
+      "width": 3000,
+      "height": 1500,
+      "padding": 0.5,
+      "initial": {
+        "x": null,
+        "y": null,
+        "scale": 0.5
+      },
+      "backgroundColor": "#0f0f0f",
+      "grid": {
+        "type": 1,
+        "size": 100,
+        "style": "solidLines",
+        "thickness": 1,
+        "color": "#000000",
+        "alpha": 0.05,
+        "distance": 5,
+        "units": "ft"
+      },
+      "tokenVision": false,
+      "fog": {
+        "exploration": false,
+        "overlay": null,
+        "colors": {
+          "explored": null,
+          "unexplored": null
+        }
+      },
+      "environment": {
+        "darknessLevel": 0,
+        "darknessLock": false,
+        "globalLight": {
+          "enabled": false,
+          "alpha": 0.5,
+          "bright": false,
+          "color": null,
+          "coloration": 1,
+          "luminosity": 0,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "cycle": true,
+        "base": {
+          "hue": 0,
+          "intensity": 0,
+          "luminosity": 0,
+          "saturation": 0,
+          "shadows": 0
+        },
+        "dark": {
+          "hue": 0.7138888888888889,
+          "intensity": 0,
+          "luminosity": -0.25,
+          "saturation": 0,
+          "shadows": 0
+        }
+      },
+      "drawings": [
+        {
+          "_id": "KQayYi1Ordez2pMf",
+          "author": "j5uZDG8YDDr9392c",
+          "shape": {
+            "type": "p",
+            "width": 5976,
+            "height": 13,
+            "radius": null,
+            "points": [
+              0,
+              0,
+              5975.5,
+              12.5,
+              5975,
+              12.5
+            ]
+          },
+          "x": 12.5,
+          "y": 12.5,
+          "elevation": 0,
+          "sort": 1,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#810e0e",
+          "fillAlpha": 0.5,
+          "strokeWidth": 8,
+          "strokeColor": "#810e0e",
+          "strokeAlpha": 1,
+          "texture": null,
+          "fontFamily": "Signika",
+          "fontSize": 48,
+          "textColor": "#ffffff",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": true,
+          "interface": false,
+          "flags": {}
+        },
+        {
+          "_id": "QMxaUMeT93DoGnoX",
+          "author": "j5uZDG8YDDr9392c",
+          "shape": {
+            "type": "p",
+            "width": 13,
+            "height": 2013,
+            "radius": null,
+            "points": [
+              12.5,
+              2012.5,
+              0,
+              0
+            ]
+          },
+          "x": 25,
+          "y": 550,
+          "elevation": 0,
+          "sort": 2,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#810e0e",
+          "fillAlpha": 0.5,
+          "strokeWidth": 8,
+          "strokeColor": "#810e0e",
+          "strokeAlpha": 1,
+          "texture": null,
+          "fontFamily": "Signika",
+          "fontSize": 48,
+          "textColor": "#ffffff",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": true,
+          "interface": false,
+          "flags": {}
+        },
+        {
+          "author": "j5uZDG8YDDr9392c",
+          "shape": {
+            "type": "p",
+            "width": 13,
+            "height": 2013,
+            "radius": null,
+            "points": [
+              12.5,
+              2012.5,
+              0,
+              0
+            ]
+          },
+          "x": 5962.5,
+          "y": 450,
+          "elevation": 0,
+          "sort": 2,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#810e0e",
+          "fillAlpha": 0.5,
+          "strokeWidth": 8,
+          "strokeColor": "#810e0e",
+          "strokeAlpha": 1,
+          "texture": null,
+          "fontFamily": "Signika",
+          "fontSize": 48,
+          "textColor": "#ffffff",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": true,
+          "interface": false,
+          "flags": {},
+          "_id": "0wX6X9hR1WayvFhL"
+        },
+        {
+          "author": "j5uZDG8YDDr9392c",
+          "shape": {
+            "type": "p",
+            "width": 5976,
+            "height": 13,
+            "radius": null,
+            "points": [
+              0,
+              0,
+              5975.5,
+              12.5,
+              5975,
+              12.5
+            ]
+          },
+          "x": -300,
+          "y": 3062.5,
+          "elevation": 0,
+          "sort": 1,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#810e0e",
+          "fillAlpha": 0.5,
+          "strokeWidth": 8,
+          "strokeColor": "#810e0e",
+          "strokeAlpha": 1,
+          "texture": null,
+          "fontFamily": "Signika",
+          "fontSize": 48,
+          "textColor": "#ffffff",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": true,
+          "interface": false,
+          "flags": {},
+          "_id": "RsjmkrkSEMeCKI4V"
+        },
+        {
+          "_id": "wYRRMRaeVZVgsbZp",
+          "author": "VvMwHSpv4dt5wmRV",
+          "shape": {
+            "type": "r",
+            "width": 488,
+            "height": 75,
+            "radius": null,
+            "points": []
+          },
+          "x": 4983.9998779296875,
+          "y": 775.9999694824219,
+          "elevation": 0,
+          "sort": 3,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 1,
+          "fillColor": "#525252",
+          "fillAlpha": 0.5,
+          "strokeWidth": 8,
+          "strokeColor": "#adadad",
+          "strokeAlpha": 1,
+          "texture": null,
+          "fontFamily": "Signika",
+          "fontSize": 48,
+          "textColor": "#ffffff",
+          "textAlpha": 1,
+          "hidden": false,
+          "locked": true,
+          "interface": true,
+          "flags": {
+            "tagger": {},
+            "LockView": {
+              "boundingBox_mode": "0"
+            }
+          },
+          "text": "PC's"
+        },
+        {
+          "author": "VvMwHSpv4dt5wmRV",
+          "shape": {
+            "type": "r",
+            "width": 488,
+            "height": 75,
+            "radius": null,
+            "points": []
+          },
+          "x": 525,
+          "y": 775,
+          "elevation": 0,
+          "sort": 3,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 1,
+          "fillColor": "#525252",
+          "fillAlpha": 0.5,
+          "strokeWidth": 8,
+          "strokeColor": "#adadad",
+          "strokeAlpha": 1,
+          "texture": null,
+          "fontFamily": "Signika",
+          "fontSize": 48,
+          "textColor": "#ffffff",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "interface": true,
+          "flags": {
+            "tagger": {},
+            "LockView": {
+              "boundingBox_mode": "0"
+            }
+          },
+          "text": "MONSTERS",
+          "_id": "TN4D5khEUla1JYXN"
+        },
+        {
+          "author": "VvMwHSpv4dt5wmRV",
+          "shape": {
+            "type": "r",
+            "width": 488,
+            "height": 75,
+            "radius": null,
+            "points": []
+          },
+          "x": 4983.000244140625,
+          "y": 1371.5000610351562,
+          "elevation": 0,
+          "sort": 3,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 1,
+          "fillColor": "#525252",
+          "fillAlpha": 0.5,
+          "strokeWidth": 8,
+          "strokeColor": "#adadad",
+          "strokeAlpha": 1,
+          "texture": null,
+          "fontFamily": "Signika",
+          "fontSize": 48,
+          "textColor": "#ffffff",
+          "textAlpha": 1,
+          "hidden": false,
+          "locked": false,
+          "interface": true,
+          "flags": {
+            "tagger": {},
+            "LockView": {
+              "boundingBox_mode": "0"
+            }
+          },
+          "text": "NPC's",
+          "_id": "uGMca7G4Z75E00Ec"
+        },
+        {
+          "author": "VvMwHSpv4dt5wmRV",
+          "shape": {
+            "type": "r",
+            "width": 488,
+            "height": 75,
+            "radius": null,
+            "points": []
+          },
+          "x": 2748,
+          "y": 27,
+          "elevation": 0,
+          "sort": 3,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 1,
+          "fillColor": "#525252",
+          "fillAlpha": 0.5,
+          "strokeWidth": 8,
+          "strokeColor": "#adadad",
+          "strokeAlpha": 1,
+          "texture": null,
+          "fontFamily": "Signika",
+          "fontSize": 48,
+          "textColor": "#ffffff",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "interface": true,
+          "flags": {
+            "tagger": {},
+            "LockView": {
+              "boundingBox_mode": "0"
+            }
+          },
+          "text": "IMAGES",
+          "_id": "oUpbyrLcZ1E6pFaU"
+        },
+        {
+          "_id": "oSvkjPFkL6ktCstR",
+          "author": "VvMwHSpv4dt5wmRV",
+          "shape": {
+            "type": "r",
+            "width": 213,
+            "height": 50,
+            "radius": null,
+            "points": []
+          },
+          "x": 3387.5,
+          "y": 425,
+          "elevation": 0,
+          "sort": 4,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "texture": null,
+          "fontFamily": "Signika",
+          "fontSize": 48,
+          "textColor": "#ffffff",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "interface": false,
+          "flags": {
+            "tagger": {},
+            "LockView": {
+              "boundingBox_mode": "0"
+            }
+          },
+          "text": "A7"
+        },
+        {
+          "author": "VvMwHSpv4dt5wmRV",
+          "shape": {
+            "type": "r",
+            "width": 213,
+            "height": 50,
+            "radius": null,
+            "points": []
+          },
+          "x": 3037.5,
+          "y": 425,
+          "elevation": 0,
+          "sort": 4,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "texture": null,
+          "fontFamily": "Signika",
+          "fontSize": 48,
+          "textColor": "#ffffff",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "interface": false,
+          "flags": {
+            "tagger": {},
+            "LockView": {
+              "boundingBox_mode": "0"
+            }
+          },
+          "text": "A6",
+          "_id": "mTPigxbOyMluUmb7"
+        },
+        {
+          "author": "VvMwHSpv4dt5wmRV",
+          "shape": {
+            "type": "r",
+            "width": 213,
+            "height": 50,
+            "radius": null,
+            "points": []
+          },
+          "x": 2687.5,
+          "y": 425,
+          "elevation": 0,
+          "sort": 4,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "texture": null,
+          "fontFamily": "Signika",
+          "fontSize": 48,
+          "textColor": "#ffffff",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "interface": false,
+          "flags": {
+            "tagger": {},
+            "LockView": {
+              "boundingBox_mode": "0"
+            }
+          },
+          "text": "A4",
+          "_id": "wQnbFMcGbnbFMugw"
+        },
+        {
+          "author": "VvMwHSpv4dt5wmRV",
+          "shape": {
+            "type": "r",
+            "width": 213,
+            "height": 50,
+            "radius": null,
+            "points": []
+          },
+          "x": 2337.5,
+          "y": 425,
+          "elevation": 0,
+          "sort": 4,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "texture": null,
+          "fontFamily": "Signika",
+          "fontSize": 48,
+          "textColor": "#ffffff",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "interface": false,
+          "flags": {
+            "tagger": {},
+            "LockView": {
+              "boundingBox_mode": "0"
+            }
+          },
+          "text": "A3",
+          "_id": "5wUbnO5LXE7fKnlH"
+        },
+        {
+          "author": "VvMwHSpv4dt5wmRV",
+          "shape": {
+            "type": "r",
+            "width": 213,
+            "height": 50,
+            "radius": null,
+            "points": []
+          },
+          "x": 1987.5,
+          "y": 425,
+          "elevation": 0,
+          "sort": 4,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "texture": null,
+          "fontFamily": "Signika",
+          "fontSize": 48,
+          "textColor": "#ffffff",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "interface": false,
+          "flags": {
+            "tagger": {},
+            "LockView": {
+              "boundingBox_mode": "0"
+            }
+          },
+          "text": "A2",
+          "_id": "wrfHNJmfAqKg8j38"
+        },
+        {
+          "author": "VvMwHSpv4dt5wmRV",
+          "shape": {
+            "type": "r",
+            "width": 213,
+            "height": 50,
+            "radius": null,
+            "points": []
+          },
+          "x": 1650,
+          "y": 425,
+          "elevation": 0,
+          "sort": 4,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "texture": null,
+          "fontFamily": "Signika",
+          "fontSize": 48,
+          "textColor": "#ffffff",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "interface": false,
+          "flags": {
+            "tagger": {},
+            "LockView": {
+              "boundingBox_mode": "0"
+            }
+          },
+          "text": "A1",
+          "_id": "M2JyPTuOZnmok8aq"
+        },
+        {
+          "author": "VvMwHSpv4dt5wmRV",
+          "shape": {
+            "type": "r",
+            "width": 213,
+            "height": 50,
+            "radius": null,
+            "points": []
+          },
+          "x": 3725,
+          "y": 425,
+          "elevation": 0,
+          "sort": 4,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "texture": null,
+          "fontFamily": "Signika",
+          "fontSize": 48,
+          "textColor": "#ffffff",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "interface": false,
+          "flags": {
+            "tagger": {},
+            "LockView": {
+              "boundingBox_mode": "0"
+            }
+          },
+          "text": "A8",
+          "_id": "N0L4cqZV68HWBUMT"
+        },
+        {
+          "author": "VvMwHSpv4dt5wmRV",
+          "shape": {
+            "type": "r",
+            "width": 213,
+            "height": 50,
+            "radius": null,
+            "points": []
+          },
+          "x": 4425,
+          "y": 425,
+          "elevation": 0,
+          "sort": 4,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "texture": null,
+          "fontFamily": "Signika",
+          "fontSize": 48,
+          "textColor": "#ffffff",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "interface": false,
+          "flags": {
+            "tagger": {},
+            "LockView": {
+              "boundingBox_mode": "0"
+            }
+          },
+          "text": "A10",
+          "_id": "IhiAPXAvGqTGNDRL"
+        },
+        {
+          "author": "VvMwHSpv4dt5wmRV",
+          "shape": {
+            "type": "r",
+            "width": 213,
+            "height": 50,
+            "radius": null,
+            "points": []
+          },
+          "x": 4087.5,
+          "y": 425,
+          "elevation": 0,
+          "sort": 4,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 0,
+          "fillColor": "#ffffff",
+          "fillAlpha": 0.1,
+          "strokeWidth": 8,
+          "strokeColor": "#ffffff",
+          "strokeAlpha": 0,
+          "texture": null,
+          "fontFamily": "Signika",
+          "fontSize": 48,
+          "textColor": "#ffffff",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "interface": false,
+          "flags": {
+            "tagger": {},
+            "LockView": {
+              "boundingBox_mode": "0"
+            }
+          },
+          "text": "A9",
+          "_id": "dcfqq2iij7gkEMd2"
+        },
+        {
+          "author": "VvMwHSpv4dt5wmRV",
+          "shape": {
+            "type": "r",
+            "width": 488,
+            "height": 75,
+            "radius": null,
+            "points": []
+          },
+          "x": 2835,
+          "y": 2473,
+          "elevation": 0,
+          "sort": 3,
+          "rotation": 0,
+          "bezierFactor": 0,
+          "fillType": 1,
+          "fillColor": "#525252",
+          "fillAlpha": 0.5,
+          "strokeWidth": 8,
+          "strokeColor": "#adadad",
+          "strokeAlpha": 1,
+          "texture": null,
+          "fontFamily": "Signika",
+          "fontSize": 48,
+          "textColor": "#ffffff",
+          "textAlpha": 1,
+          "hidden": true,
+          "locked": false,
+          "interface": true,
+          "flags": {
+            "tagger": {},
+            "LockView": {
+              "boundingBox_mode": "0"
+            }
+          },
+          "text": "SCENES",
+          "_id": "DrSInxiIHSi7gFuv"
+        }
+      ],
+      "tokens": [],
+      "lights": [],
+      "notes": [
+        {
+          "entryId": "HvhKtkuUTiUwqPyi",
+          "pageId": null,
+          "text": "",
+          "x": 5300,
+          "y": 650,
+          "elevation": 0,
+          "sort": 0,
+          "global": true,
+          "iconSize": 40,
+          "texture": {
+            "tint": "#ffffff",
+            "src": "icons/svg/book.svg",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "offsetX": 0,
+            "offsetY": 0,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0,
+            "alphaThreshold": 0
+          },
+          "fontFamily": "Signika",
+          "fontSize": 32,
+          "textColor": "#ffffff",
+          "textAnchor": 1,
+          "flags": {
+            "tagger": {
+              "tags": ""
+            }
+          },
+          "_id": "u0nx9yiaubIADRJH"
+        }
+      ],
+      "sounds": [],
+      "regions": [
+        {
+          "name": "Region",
+          "color": "#cc2864",
+          "shapes": [
+            {
+              "type": "rectangle",
+              "x": 1600,
+              "y": 1200,
+              "width": 900,
+              "height": 700,
+              "rotation": 0,
+              "hole": false
+            }
+          ],
+          "_id": "yFpvCvHA8NGKXIJ1",
+          "elevation": {
+            "bottom": null,
+            "top": null
+          },
+          "behaviors": [
+            {
+              "name": "Suppress Weather",
+              "type": "suppressWeather",
+              "_id": "waMDk9CAoaTbnleU",
+              "system": {},
+              "disabled": false,
+              "flags": {},
+              "_stats": {
+                "compendiumSource": null,
+                "duplicateSource": null,
+                "coreVersion": "12.327",
+                "systemId": "dnd5e",
+                "systemVersion": "3.2.1",
+                "createdTime": null,
+                "modifiedTime": null,
+                "lastModifiedBy": null
+              }
+            }
+          ],
+          "visibility": 0,
+          "locked": false,
+          "flags": {}
+        }
+      ],
+      "templates": [],
+      "tiles": [
+        {
+          "texture": {
+            "src": "https://assets.forge-vtt.com/5f09f0874496fb7fd4239a34/modules/Axium_Raiders_FVTT/tiles/Chapter%206/travel_to_far_landing/A10.%20The%20Tall%20Tower.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
+          },
+          "x": 1500,
+          "y": 800,
+          "width": 3000,
+          "height": 1500,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": false,
+          "locked": true,
+          "occlusion": {
+            "mode": 0,
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "tagger": {
+              "tags": [
+                "tile1"
+              ]
+            },
+            "betterroofs": {
+              "brMode": false,
+              "occlusionLinkId": "",
+              "occlusionLinkSource": false
+            },
+            "tile-scroll": {
+              "enableScroll": false,
+              "scrollDirection": 0,
+              "enableRotate": false,
+              "scrollSpeed": 1,
+              "repeat": 1,
+              "pivotx": 0.5,
+              "pivoty": 0.5,
+              "offsetx": 0,
+              "offsety": 0,
+              "repeatx": 1,
+              "repeaty": 1,
+              "parallax": 0
+            },
+            "monks-active-tiles": {
+              "active": false,
+              "record": false,
+              "restriction": "all",
+              "controlled": "all",
+              "trigger": [
+                ""
+              ],
+              "allowpaused": false,
+              "usealpha": false,
+              "pointer": false,
+              "pertoken": false,
+              "minrequired": 0,
+              "chance": 50,
+              "fileindex": 9,
+              "actions": [],
+              "files": [
+                {
+                  "id": "ArOSJwViw8nLhnP1",
+                  "name": "https://assets.forge-vtt.com/5f09f0874496fb7fd4239a34/modules/Axium_Raiders_FVTT/tiles/Generic/paper%20texture.webp",
+                  "selected": false
+                },
+                {
+                  "id": "OgUbgQmXui6GIkUK",
+                  "name": "https://assets.forge-vtt.com/5f09f0874496fb7fd4239a34/modules/Axium_Raiders_FVTT/tiles/Chapter%206/travel_to_far_landing/A1.%20The%20River%20of%20the%20Risa.webp",
+                  "selected": false
+                },
+                {
+                  "id": "2mzGbLCwmVADJdZF",
+                  "name": "https://assets.forge-vtt.com/5f09f0874496fb7fd4239a34/modules/Axium_Raiders_FVTT/tiles/Chapter%206/travel_to_far_landing/A2.%20The%20River%20Barricade.webp",
+                  "selected": false
+                },
+                {
+                  "id": "YEsth2KAZS9Elnos",
+                  "name": "https://assets.forge-vtt.com/5f09f0874496fb7fd4239a34/modules/Axium_Raiders_FVTT/tiles/Chapter%206/travel_to_far_landing/A3.%20Ambush!.webp",
+                  "selected": false
+                },
+                {
+                  "id": "7cU89oxltGGTgVB6",
+                  "name": "https://assets.forge-vtt.com/5f09f0874496fb7fd4239a34/modules/Axium_Raiders_FVTT/tiles/Chapter%206/travel_to_far_landing/A4.%20The%20Harbor.webp",
+                  "selected": true
+                },
+                {
+                  "id": "ybUsGG17xdelxARh",
+                  "name": "https://assets.forge-vtt.com/5f09f0874496fb7fd4239a34/modules/Axium_Raiders_FVTT/tiles/Chapter%206/travel_to_far_landing/A6.%20The%20Way%20East.webp",
+                  "selected": false
+                },
+                {
+                  "id": "8NeZnn6PPAkkGxk0",
+                  "name": "https://assets.forge-vtt.com/5f09f0874496fb7fd4239a34/modules/Axium_Raiders_FVTT/tiles/Chapter%206/travel_to_far_landing/A7.%20The%20Tussers.webp",
+                  "selected": false
+                },
+                {
+                  "id": "kLBy6G7SJRn33QTt",
+                  "name": "https://assets.forge-vtt.com/5f09f0874496fb7fd4239a34/modules/Axium_Raiders_FVTT/tiles/Chapter%206/travel_to_far_landing/A8.%20Scouting%20Patrol.webp",
+                  "selected": false
+                },
+                {
+                  "id": "HlQoIPp4gOIUBYTu",
+                  "name": "https://assets.forge-vtt.com/5f09f0874496fb7fd4239a34/modules/Axium_Raiders_FVTT/tiles/Chapter%206/travel_to_far_landing/A9.%20The%20Last%20Homestead.webp",
+                  "selected": false
+                },
+                {
+                  "id": "hsac0CHyTPXIPjVG",
+                  "name": "https://assets.forge-vtt.com/5f09f0874496fb7fd4239a34/modules/Axium_Raiders_FVTT/tiles/Chapter%206/travel_to_far_landing/A10.%20The%20Tall%20Tower.webp",
+                  "selected": false
+                }
+              ],
+              "cooldown": null,
+              "vision": false,
+              "name": ""
+            }
+          },
+          "sort": -7,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0,
+          "_id": "2vDePFnJqRwm2eLA"
+        },
+        {
+          "texture": {
+            "src": "https://assets.forge-vtt.com/5f09f0874496fb7fd4239a34/modules/Axium_Raiders_FVTT/tiles/Generic/paper%20texture.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
+          },
+          "x": 1250,
+          "y": 200,
+          "width": 300,
+          "height": 200,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "occlusion": {
+            "mode": 0,
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "tagger": {},
+            "betterroofs": {
+              "brMode": false,
+              "occlusionLinkId": "",
+              "occlusionLinkSource": false
+            },
+            "tile-scroll": {
+              "enableScroll": false,
+              "scrollDirection": 0,
+              "enableRotate": false,
+              "scrollSpeed": 1,
+              "repeat": 1,
+              "pivotx": 0.5,
+              "pivoty": 0.5,
+              "offsetx": 0,
+              "offsety": 0,
+              "repeatx": 1,
+              "repeaty": 1,
+              "parallax": 0
+            },
+            "monks-active-tiles": {
+              "active": true,
+              "record": false,
+              "restriction": "all",
+              "controlled": "all",
+              "trigger": [
+                "",
+                "dblclick"
+              ],
+              "allowpaused": false,
+              "usealpha": false,
+              "pointer": false,
+              "pertoken": false,
+              "minrequired": 0,
+              "chance": 50,
+              "fileindex": 1,
+              "actions": [
+                {
+                  "action": "tileimage",
+                  "data": {
+                    "entity": {
+                      "id": "tagger:tile1",
+                      "match": "all",
+                      "scene": "_active",
+                      "name": "<i class=\"fas fa-tag fa-sm\"></i> tile1"
+                    },
+                    "select": "1",
+                    "transition": "none",
+                    "speed": 1,
+                    "loop": 1
+                  },
+                  "id": "rDXfiAc0Nh9VX6I6"
+                }
+              ],
+              "files": [],
+              "cooldown": null,
+              "name": "",
+              "vision": false
+            }
+          },
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0,
+          "_id": "oWX8x8xvHSOgIQDD"
+        },
+        {
+          "texture": {
+            "src": "https://assets.forge-vtt.com/5f09f0874496fb7fd4239a34/modules/Axium_Raiders_FVTT/tiles/Chapter%206/travel_to_far_landing/A1.%20The%20River%20of%20the%20Risa.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
+          },
+          "x": 1600,
+          "y": 200,
+          "width": 300,
+          "height": 200,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "occlusion": {
+            "mode": 0,
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "tagger": {},
+            "betterroofs": {
+              "brMode": false,
+              "occlusionLinkId": "",
+              "occlusionLinkSource": false
+            },
+            "tile-scroll": {
+              "enableScroll": false,
+              "scrollDirection": 0,
+              "enableRotate": false,
+              "scrollSpeed": 1,
+              "repeat": 1,
+              "pivotx": 0.5,
+              "pivoty": 0.5,
+              "offsetx": 0,
+              "offsety": 0,
+              "repeatx": 1,
+              "repeaty": 1,
+              "parallax": 0
+            },
+            "monks-active-tiles": {
+              "active": true,
+              "record": false,
+              "restriction": "all",
+              "controlled": "all",
+              "trigger": [
+                "",
+                "click"
+              ],
+              "allowpaused": false,
+              "usealpha": false,
+              "pointer": false,
+              "pertoken": false,
+              "minrequired": 0,
+              "chance": 50,
+              "fileindex": 1,
+              "actions": [
+                {
+                  "action": "tileimage",
+                  "data": {
+                    "entity": {
+                      "id": "tagger:tile1",
+                      "match": "all",
+                      "scene": "_active",
+                      "name": "<i class=\"fas fa-tag fa-sm\"></i> tile1"
+                    },
+                    "select": "2",
+                    "transition": "none",
+                    "speed": 1,
+                    "loop": 1
+                  },
+                  "id": "rDXfiAc0Nh9VX6I6"
+                }
+              ],
+              "files": [],
+              "cooldown": null,
+              "vision": false,
+              "name": ""
+            }
+          },
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0,
+          "_id": "bTOthrq5C5S26FKK"
+        },
+        {
+          "texture": {
+            "src": "https://assets.forge-vtt.com/5f09f0874496fb7fd4239a34/modules/Axium_Raiders_FVTT/tiles/Chapter%206/travel_to_far_landing/A2.%20The%20River%20Barricade.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
+          },
+          "x": 1950,
+          "y": 200,
+          "width": 300,
+          "height": 200,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "occlusion": {
+            "mode": 0,
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "tagger": {},
+            "betterroofs": {
+              "brMode": false,
+              "occlusionLinkId": "",
+              "occlusionLinkSource": false
+            },
+            "tile-scroll": {
+              "enableScroll": false,
+              "scrollDirection": 0,
+              "enableRotate": false,
+              "scrollSpeed": 1,
+              "repeat": 1,
+              "pivotx": 0.5,
+              "pivoty": 0.5,
+              "offsetx": 0,
+              "offsety": 0,
+              "repeatx": 1,
+              "repeaty": 1,
+              "parallax": 0
+            },
+            "monks-active-tiles": {
+              "active": true,
+              "record": false,
+              "restriction": "all",
+              "controlled": "all",
+              "trigger": [
+                "",
+                "dblclick"
+              ],
+              "allowpaused": false,
+              "usealpha": false,
+              "pointer": false,
+              "pertoken": false,
+              "minrequired": 0,
+              "chance": 50,
+              "fileindex": 1,
+              "actions": [
+                {
+                  "action": "tileimage",
+                  "data": {
+                    "entity": {
+                      "id": "tagger:tile1",
+                      "match": "all",
+                      "scene": "_active",
+                      "name": "<i class=\"fas fa-tag fa-sm\"></i> tile1"
+                    },
+                    "select": "3",
+                    "transition": "none",
+                    "speed": 1,
+                    "loop": 1
+                  },
+                  "id": "rDXfiAc0Nh9VX6I6"
+                }
+              ],
+              "files": [],
+              "cooldown": null,
+              "vision": false,
+              "name": ""
+            }
+          },
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0,
+          "_id": "yjQMxMBUiIg3s1r3"
+        },
+        {
+          "texture": {
+            "src": "https://assets.forge-vtt.com/5f09f0874496fb7fd4239a34/modules/Axium_Raiders_FVTT/tiles/Chapter%206/travel_to_far_landing/A3.%20Ambush!.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
+          },
+          "x": 2300,
+          "y": 200,
+          "width": 300,
+          "height": 200,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "occlusion": {
+            "mode": 0,
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "tagger": {},
+            "betterroofs": {
+              "brMode": false,
+              "occlusionLinkId": "",
+              "occlusionLinkSource": false
+            },
+            "tile-scroll": {
+              "enableScroll": false,
+              "scrollDirection": 0,
+              "enableRotate": false,
+              "scrollSpeed": 1,
+              "repeat": 1,
+              "pivotx": 0.5,
+              "pivoty": 0.5,
+              "offsetx": 0,
+              "offsety": 0,
+              "repeatx": 1,
+              "repeaty": 1,
+              "parallax": 0
+            },
+            "monks-active-tiles": {
+              "active": true,
+              "record": false,
+              "restriction": "all",
+              "controlled": "all",
+              "trigger": [
+                "",
+                "dblclick"
+              ],
+              "allowpaused": false,
+              "usealpha": false,
+              "pointer": false,
+              "pertoken": false,
+              "minrequired": 0,
+              "chance": 50,
+              "fileindex": 1,
+              "actions": [
+                {
+                  "action": "tileimage",
+                  "data": {
+                    "entity": {
+                      "id": "tagger:tile1",
+                      "match": "all",
+                      "scene": "_active",
+                      "name": "<i class=\"fas fa-tag fa-sm\"></i> tile1"
+                    },
+                    "select": "4",
+                    "transition": "none",
+                    "speed": 1,
+                    "loop": 1
+                  },
+                  "id": "rDXfiAc0Nh9VX6I6"
+                },
+                {
+                  "action": "activate",
+                  "data": {
+                    "entity": {
+                      "id": "tagger:portal",
+                      "match": "all",
+                      "scene": "_active",
+                      "name": "<i class=\"fas fa-tag fa-sm\"></i> portal"
+                    },
+                    "collection": "tiles",
+                    "activate": "deactivate"
+                  },
+                  "id": "2NLy0Hi4ZPqJdQnt"
+                }
+              ],
+              "files": [],
+              "cooldown": null,
+              "vision": false,
+              "name": ""
+            }
+          },
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0,
+          "_id": "HL1W2SWiXEMPUvlK"
+        },
+        {
+          "texture": {
+            "src": "https://assets.forge-vtt.com/5f09f0874496fb7fd4239a34/modules/Axium_Raiders_FVTT/tiles/Chapter%206/travel_to_far_landing/A6.%20The%20Way%20East.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
+          },
+          "x": 3000,
+          "y": 200,
+          "width": 300,
+          "height": 200,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "occlusion": {
+            "mode": 0,
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "tagger": {},
+            "betterroofs": {
+              "brMode": false,
+              "occlusionLinkId": "",
+              "occlusionLinkSource": false
+            },
+            "tile-scroll": {
+              "enableScroll": false,
+              "scrollDirection": 0,
+              "enableRotate": false,
+              "scrollSpeed": 1,
+              "repeat": 1,
+              "pivotx": 0.5,
+              "pivoty": 0.5,
+              "offsetx": 0,
+              "offsety": 0,
+              "repeatx": 1,
+              "repeaty": 1,
+              "parallax": 0
+            },
+            "monks-active-tiles": {
+              "active": true,
+              "record": false,
+              "restriction": "all",
+              "controlled": "all",
+              "trigger": [
+                "",
+                "dblclick"
+              ],
+              "allowpaused": false,
+              "usealpha": false,
+              "pointer": false,
+              "pertoken": false,
+              "minrequired": 0,
+              "chance": 50,
+              "fileindex": 1,
+              "actions": [
+                {
+                  "action": "tileimage",
+                  "data": {
+                    "entity": {
+                      "id": "tagger:tile1",
+                      "match": "all",
+                      "scene": "_active",
+                      "name": "<i class=\"fas fa-tag fa-sm\"></i> tile1"
+                    },
+                    "select": "6",
+                    "transition": "none",
+                    "speed": 1,
+                    "loop": 1
+                  },
+                  "id": "rDXfiAc0Nh9VX6I6"
+                }
+              ],
+              "files": [],
+              "cooldown": null,
+              "vision": false,
+              "name": ""
+            }
+          },
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0,
+          "_id": "1LbbMvZGEMeXgrTH"
+        },
+        {
+          "texture": {
+            "src": "https://assets.forge-vtt.com/5f09f0874496fb7fd4239a34/modules/Axium_Raiders_FVTT/tiles/Chapter%206/travel_to_far_landing/A4.%20The%20Harbor.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
+          },
+          "x": 2650,
+          "y": 200,
+          "width": 300,
+          "height": 200,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "occlusion": {
+            "mode": 0,
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "tagger": {},
+            "betterroofs": {
+              "brMode": false,
+              "occlusionLinkId": "",
+              "occlusionLinkSource": false
+            },
+            "tile-scroll": {
+              "enableScroll": false,
+              "scrollDirection": 0,
+              "enableRotate": false,
+              "scrollSpeed": 1,
+              "repeat": 1,
+              "pivotx": 0.5,
+              "pivoty": 0.5,
+              "offsetx": 0,
+              "offsety": 0,
+              "repeatx": 1,
+              "repeaty": 1,
+              "parallax": 0
+            },
+            "monks-active-tiles": {
+              "active": true,
+              "record": false,
+              "restriction": "all",
+              "controlled": "all",
+              "trigger": [
+                "",
+                "dblclick"
+              ],
+              "allowpaused": false,
+              "usealpha": false,
+              "pointer": false,
+              "pertoken": false,
+              "minrequired": 0,
+              "chance": 50,
+              "fileindex": 1,
+              "actions": [
+                {
+                  "action": "tileimage",
+                  "data": {
+                    "entity": {
+                      "id": "tagger:tile1",
+                      "match": "all",
+                      "scene": "_active",
+                      "name": "<i class=\"fas fa-tag fa-sm\"></i> tile1"
+                    },
+                    "select": "5",
+                    "transition": "none",
+                    "speed": 1,
+                    "loop": 1
+                  },
+                  "id": "rDXfiAc0Nh9VX6I6"
+                },
+                {
+                  "action": "activate",
+                  "data": {
+                    "entity": {
+                      "id": "tagger:portal",
+                      "match": "all",
+                      "scene": "_active",
+                      "name": "<i class=\"fas fa-tag fa-sm\"></i> portal"
+                    },
+                    "collection": "tiles",
+                    "activate": "deactivate"
+                  },
+                  "id": "2NLy0Hi4ZPqJdQnt"
+                }
+              ],
+              "files": [],
+              "cooldown": null,
+              "vision": false,
+              "name": ""
+            }
+          },
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0,
+          "_id": "vTEjgg9B5ynAdahx"
+        },
+        {
+          "texture": {
+            "src": "https://assets.forge-vtt.com/5f09f0874496fb7fd4239a34/modules/Axium_Raiders_FVTT/tiles/Chapter%206/travel_to_far_landing/A7.%20The%20Tussers.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
+          },
+          "x": 3350,
+          "y": 200,
+          "width": 300,
+          "height": 200,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "occlusion": {
+            "mode": 0,
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "tagger": {},
+            "betterroofs": {
+              "brMode": false,
+              "occlusionLinkId": "",
+              "occlusionLinkSource": false
+            },
+            "tile-scroll": {
+              "enableScroll": false,
+              "scrollDirection": 0,
+              "enableRotate": false,
+              "scrollSpeed": 1,
+              "repeat": 1,
+              "pivotx": 0.5,
+              "pivoty": 0.5,
+              "offsetx": 0,
+              "offsety": 0,
+              "repeatx": 1,
+              "repeaty": 1,
+              "parallax": 0
+            },
+            "monks-active-tiles": {
+              "active": true,
+              "record": false,
+              "restriction": "all",
+              "controlled": "all",
+              "trigger": [
+                "",
+                "dblclick"
+              ],
+              "allowpaused": false,
+              "usealpha": false,
+              "pointer": false,
+              "pertoken": false,
+              "minrequired": 0,
+              "chance": 50,
+              "fileindex": 1,
+              "actions": [
+                {
+                  "action": "tileimage",
+                  "data": {
+                    "entity": {
+                      "id": "tagger:tile1",
+                      "match": "all",
+                      "scene": "_active",
+                      "name": "<i class=\"fas fa-tag fa-sm\"></i> tile1"
+                    },
+                    "select": "7",
+                    "transition": "none",
+                    "speed": 1,
+                    "loop": 1
+                  },
+                  "id": "rDXfiAc0Nh9VX6I6"
+                }
+              ],
+              "files": [],
+              "cooldown": null,
+              "vision": false,
+              "name": ""
+            }
+          },
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0,
+          "_id": "0MW6A7IuBcenjxQ7"
+        },
+        {
+          "texture": {
+            "src": "https://assets.forge-vtt.com/5f09f0874496fb7fd4239a34/modules/Axium_Raiders_FVTT/tiles/Chapter%206/travel_to_far_landing/A8.%20Scouting%20Patrol.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
+          },
+          "x": 3700,
+          "y": 200,
+          "width": 300,
+          "height": 200,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "occlusion": {
+            "mode": 0,
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "tagger": {},
+            "betterroofs": {
+              "brMode": false,
+              "occlusionLinkId": "",
+              "occlusionLinkSource": false
+            },
+            "tile-scroll": {
+              "enableScroll": false,
+              "scrollDirection": 0,
+              "enableRotate": false,
+              "scrollSpeed": 1,
+              "repeat": 1,
+              "pivotx": 0.5,
+              "pivoty": 0.5,
+              "offsetx": 0,
+              "offsety": 0,
+              "repeatx": 1,
+              "repeaty": 1,
+              "parallax": 0
+            },
+            "monks-active-tiles": {
+              "active": true,
+              "record": false,
+              "restriction": "all",
+              "controlled": "all",
+              "trigger": [
+                "",
+                "dblclick"
+              ],
+              "allowpaused": false,
+              "usealpha": false,
+              "pointer": false,
+              "pertoken": false,
+              "minrequired": 0,
+              "chance": 50,
+              "fileindex": 1,
+              "actions": [
+                {
+                  "action": "tileimage",
+                  "data": {
+                    "entity": {
+                      "id": "tagger:tile1",
+                      "match": "all",
+                      "scene": "_active",
+                      "name": "<i class=\"fas fa-tag fa-sm\"></i> tile1"
+                    },
+                    "select": "8",
+                    "transition": "none",
+                    "speed": 1,
+                    "loop": 1
+                  },
+                  "id": "rDXfiAc0Nh9VX6I6"
+                }
+              ],
+              "files": [],
+              "cooldown": null,
+              "vision": false,
+              "name": ""
+            }
+          },
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0,
+          "_id": "wBg5OipyP80N1dH3"
+        },
+        {
+          "texture": {
+            "src": "https://assets.forge-vtt.com/5f09f0874496fb7fd4239a34/modules/Axium_Raiders_FVTT/tiles/Chapter%206/travel_to_far_landing/A9.%20The%20Last%20Homestead.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
+          },
+          "x": 4050,
+          "y": 200,
+          "width": 300,
+          "height": 200,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "occlusion": {
+            "mode": 0,
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "tagger": {},
+            "betterroofs": {
+              "brMode": false,
+              "occlusionLinkId": "",
+              "occlusionLinkSource": false
+            },
+            "tile-scroll": {
+              "enableScroll": false,
+              "scrollDirection": 0,
+              "enableRotate": false,
+              "scrollSpeed": 1,
+              "repeat": 1,
+              "pivotx": 0.5,
+              "pivoty": 0.5,
+              "offsetx": 0,
+              "offsety": 0,
+              "repeatx": 1,
+              "repeaty": 1,
+              "parallax": 0
+            },
+            "monks-active-tiles": {
+              "active": true,
+              "record": false,
+              "restriction": "all",
+              "controlled": "all",
+              "trigger": [
+                "",
+                "dblclick"
+              ],
+              "allowpaused": false,
+              "usealpha": false,
+              "pointer": false,
+              "pertoken": false,
+              "minrequired": 0,
+              "chance": 50,
+              "fileindex": 1,
+              "actions": [
+                {
+                  "action": "tileimage",
+                  "data": {
+                    "entity": {
+                      "id": "tagger:tile1",
+                      "match": "all",
+                      "scene": "_active",
+                      "name": "<i class=\"fas fa-tag fa-sm\"></i> tile1"
+                    },
+                    "select": "9",
+                    "transition": "none",
+                    "speed": 1,
+                    "loop": 1
+                  },
+                  "id": "rDXfiAc0Nh9VX6I6"
+                }
+              ],
+              "files": [],
+              "cooldown": null,
+              "vision": false,
+              "name": ""
+            }
+          },
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0,
+          "_id": "7kl5IGR2oGZOqJ7d"
+        },
+        {
+          "texture": {
+            "src": "https://assets.forge-vtt.com/5f09f0874496fb7fd4239a34/modules/Axium_Raiders_FVTT/tiles/Chapter%206/travel_to_far_landing/A10.%20The%20Tall%20Tower.webp",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "fill",
+            "alphaThreshold": 0.75
+          },
+          "x": 4400,
+          "y": 200,
+          "width": 300,
+          "height": 200,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": false,
+          "occlusion": {
+            "mode": 0,
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "tagger": {},
+            "betterroofs": {
+              "brMode": false,
+              "occlusionLinkId": "",
+              "occlusionLinkSource": false
+            },
+            "tile-scroll": {
+              "enableScroll": false,
+              "scrollDirection": 0,
+              "enableRotate": false,
+              "scrollSpeed": 1,
+              "repeat": 1,
+              "pivotx": 0.5,
+              "pivoty": 0.5,
+              "offsetx": 0,
+              "offsety": 0,
+              "repeatx": 1,
+              "repeaty": 1,
+              "parallax": 0
+            },
+            "monks-active-tiles": {
+              "active": true,
+              "record": false,
+              "restriction": "all",
+              "controlled": "all",
+              "trigger": [
+                "",
+                "dblclick"
+              ],
+              "allowpaused": false,
+              "usealpha": false,
+              "pointer": false,
+              "pertoken": false,
+              "minrequired": 0,
+              "chance": 50,
+              "fileindex": 1,
+              "actions": [
+                {
+                  "action": "tileimage",
+                  "data": {
+                    "entity": {
+                      "id": "tagger:tile1",
+                      "match": "all",
+                      "scene": "_active",
+                      "name": "<i class=\"fas fa-tag fa-sm\"></i> tile1"
+                    },
+                    "select": "10",
+                    "transition": "none",
+                    "speed": 1,
+                    "loop": 1
+                  },
+                  "id": "rDXfiAc0Nh9VX6I6"
+                }
+              ],
+              "files": [],
+              "cooldown": null,
+              "vision": false,
+              "name": ""
+            }
+          },
+          "sort": 100,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "elevation": 0,
+          "_id": "IqZvY9yk3acMX6dZ"
+        },
+        {
+          "texture": {
+            "src": "https://assets.forge-vtt.com/5f09f0874496fb7fd4239a34/modules/Axium_Raiders_FVTT/tiles/Generic/banner.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "offsetX": 0,
+            "offsetY": 0,
+            "fit": "fill",
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 950,
+          "y": 450,
+          "width": 4150,
+          "height": 100,
+          "elevation": 0,
+          "sort": 185,
+          "occlusion": {
+            "mode": 0,
+            "alpha": 0
+          },
+          "_id": "4dvrxdz6yAuAXeXK",
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": true,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "monks-active-tiles": {
+              "name": "",
+              "active": true,
+              "record": false,
+              "restriction": "all",
+              "controlled": "all",
+              "trigger": [
+                "enter"
+              ],
+              "allowpaused": false,
+              "usealpha": false,
+              "pointer": false,
+              "vision": true,
+              "pertoken": false,
+              "minrequired": 0,
+              "cooldown": null,
+              "chance": 100,
+              "fileindex": -1,
+              "actions": [],
+              "files": []
+            },
+            "tagger": {},
+            "betterroofs": {
+              "brMode": false,
+              "occlusionLinkId": "",
+              "occlusionLinkSource": false
+            },
+            "tile-scroll": {
+              "enableScroll": false,
+              "scrollDirection": 0,
+              "enableRotate": false,
+              "scrollSpeed": 1,
+              "repeatx": 1,
+              "repeaty": 1,
+              "pivotx": 0.5,
+              "pivoty": 0.5,
+              "offsetx": 0,
+              "offsety": 0,
+              "parallax": 0
+            }
+          }
+        },
+        {
+          "texture": {
+            "src": "https://assets.forge-vtt.com/5f09f0874496fb7fd4239a34/modules/Axium_Raiders_FVTT/tiles/Generic/banner.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "offsetX": 0,
+            "offsetY": 0,
+            "fit": "fill",
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 950,
+          "y": 50,
+          "width": 4150,
+          "height": 100,
+          "elevation": 0,
+          "sort": 185,
+          "occlusion": {
+            "mode": 0,
+            "alpha": 0
+          },
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": true,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "monks-active-tiles": {
+              "name": "",
+              "active": true,
+              "record": false,
+              "restriction": "all",
+              "controlled": "all",
+              "trigger": [
+                "enter"
+              ],
+              "allowpaused": false,
+              "usealpha": false,
+              "pointer": false,
+              "vision": true,
+              "pertoken": false,
+              "minrequired": 0,
+              "cooldown": null,
+              "chance": 100,
+              "fileindex": -1,
+              "actions": [],
+              "files": []
+            },
+            "tagger": {},
+            "betterroofs": {
+              "brMode": false,
+              "occlusionLinkId": "",
+              "occlusionLinkSource": false
+            },
+            "tile-scroll": {
+              "enableScroll": false,
+              "scrollDirection": 0,
+              "enableRotate": false,
+              "scrollSpeed": 1,
+              "repeatx": 1,
+              "repeaty": 1,
+              "pivotx": 0.5,
+              "pivoty": 0.5,
+              "offsetx": 0,
+              "offsety": 0,
+              "parallax": 0
+            }
+          },
+          "_id": "zMIr2Rzn43dDekai"
+        },
+        {
+          "texture": {
+            "src": "https://assets.forge-vtt.com/5f09f0874496fb7fd4239a34/modules/Axium_Raiders_FVTT/tiles/Generic/banner.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "offsetX": 0,
+            "offsetY": 0,
+            "fit": "fill",
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 4554,
+          "y": 800,
+          "width": 1350,
+          "height": 100,
+          "elevation": 0,
+          "sort": 185,
+          "occlusion": {
+            "mode": 0,
+            "alpha": 0
+          },
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": false,
+          "locked": true,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "monks-active-tiles": {
+              "name": "",
+              "active": true,
+              "record": false,
+              "restriction": "all",
+              "controlled": "all",
+              "trigger": [
+                "enter"
+              ],
+              "allowpaused": false,
+              "usealpha": false,
+              "pointer": false,
+              "vision": true,
+              "pertoken": false,
+              "minrequired": 0,
+              "cooldown": null,
+              "chance": 100,
+              "fileindex": -1,
+              "actions": [],
+              "files": []
+            },
+            "tagger": {},
+            "betterroofs": {
+              "brMode": false,
+              "occlusionLinkId": "",
+              "occlusionLinkSource": false
+            },
+            "tile-scroll": {
+              "enableScroll": false,
+              "scrollDirection": 0,
+              "enableRotate": false,
+              "scrollSpeed": 1,
+              "repeatx": 1,
+              "repeaty": 1,
+              "pivotx": 0.5,
+              "pivoty": 0.5,
+              "offsetx": 0,
+              "offsety": 0,
+              "parallax": 0
+            }
+          },
+          "_id": "GLqgm3dX1ujEJMWo"
+        },
+        {
+          "texture": {
+            "src": "https://assets.forge-vtt.com/5f09f0874496fb7fd4239a34/modules/Axium_Raiders_FVTT/tiles/Generic/banner.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "offsetX": 0,
+            "offsetY": 0,
+            "fit": "fill",
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 4554,
+          "y": 1392,
+          "width": 1350,
+          "height": 100,
+          "elevation": 0,
+          "sort": 185,
+          "occlusion": {
+            "mode": 0,
+            "alpha": 0
+          },
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": false,
+          "locked": true,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "monks-active-tiles": {
+              "name": "",
+              "active": true,
+              "record": false,
+              "restriction": "all",
+              "controlled": "all",
+              "trigger": [
+                "enter"
+              ],
+              "allowpaused": false,
+              "usealpha": false,
+              "pointer": false,
+              "vision": true,
+              "pertoken": false,
+              "minrequired": 0,
+              "cooldown": null,
+              "chance": 100,
+              "fileindex": -1,
+              "actions": [],
+              "files": []
+            },
+            "tagger": {},
+            "betterroofs": {
+              "brMode": false,
+              "occlusionLinkId": "",
+              "occlusionLinkSource": false
+            },
+            "tile-scroll": {
+              "enableScroll": false,
+              "scrollDirection": 0,
+              "enableRotate": false,
+              "scrollSpeed": 1,
+              "repeatx": 1,
+              "repeaty": 1,
+              "pivotx": 0.5,
+              "pivoty": 0.5,
+              "offsetx": 0,
+              "offsety": 0,
+              "parallax": 0
+            }
+          },
+          "_id": "zzgmfHaBFbt7Fr56"
+        },
+        {
+          "texture": {
+            "src": "https://assets.forge-vtt.com/5f09f0874496fb7fd4239a34/axium-world-data/rotss/tiles/bannr.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "offsetX": 0,
+            "offsetY": 0,
+            "fit": "fill",
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 100,
+          "y": 800,
+          "width": 1350,
+          "height": 100,
+          "elevation": 0,
+          "sort": 185,
+          "occlusion": {
+            "mode": 0,
+            "alpha": 0
+          },
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": true,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "monks-active-tiles": {
+              "active": true,
+              "name": "",
+              "record": false,
+              "restriction": "all",
+              "controlled": "all",
+              "trigger": [
+                ""
+              ],
+              "allowpaused": false,
+              "usealpha": false,
+              "pointer": false,
+              "vision": false,
+              "pertoken": false,
+              "minrequired": 0,
+              "cooldown": null,
+              "chance": 50,
+              "fileindex": -1,
+              "actions": [],
+              "files": []
+            },
+            "tagger": {},
+            "betterroofs": {
+              "brMode": false,
+              "occlusionLinkId": "",
+              "occlusionLinkSource": false
+            },
+            "tile-scroll": {
+              "enableScroll": false,
+              "scrollDirection": 0,
+              "enableRotate": false,
+              "scrollSpeed": 1,
+              "repeatx": 1,
+              "repeaty": 1,
+              "pivotx": 0.5,
+              "pivoty": 0.5,
+              "offsetx": 0,
+              "offsety": 0,
+              "parallax": 0
+            }
+          },
+          "_id": "Rg9LoTK9Av1YbBgt"
+        },
+        {
+          "texture": {
+            "src": "https://assets.forge-vtt.com/5f09f0874496fb7fd4239a34/modules/Axium_Raiders_FVTT/tiles/Generic/banner.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "offsetX": 0,
+            "offsetY": 0,
+            "fit": "fill",
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 1050,
+          "y": 2500,
+          "width": 4150,
+          "height": 100,
+          "elevation": 0,
+          "sort": 185,
+          "occlusion": {
+            "mode": 0,
+            "alpha": 0
+          },
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": true,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "monks-active-tiles": {
+              "name": "",
+              "active": true,
+              "record": false,
+              "restriction": "all",
+              "controlled": "all",
+              "trigger": [
+                "enter"
+              ],
+              "allowpaused": false,
+              "usealpha": false,
+              "pointer": false,
+              "vision": true,
+              "pertoken": false,
+              "minrequired": 0,
+              "cooldown": null,
+              "chance": 100,
+              "fileindex": -1,
+              "actions": [],
+              "files": []
+            },
+            "tagger": {},
+            "betterroofs": {
+              "brMode": false,
+              "occlusionLinkId": "",
+              "occlusionLinkSource": false
+            },
+            "tile-scroll": {
+              "enableScroll": false,
+              "scrollDirection": 0,
+              "enableRotate": false,
+              "scrollSpeed": 1,
+              "repeatx": 1,
+              "repeaty": 1,
+              "pivotx": 0.5,
+              "pivoty": 0.5,
+              "offsetx": 0,
+              "offsety": 0,
+              "parallax": 0
+            }
+          },
+          "_id": "NrlRSLWHYxox0HFy"
+        },
+        {
+          "texture": {
+            "src": "https://assets.forge-vtt.com/5f09f0874496fb7fd4239a34/modules/Axium_Raiders_FVTT/tiles/Generic/banner.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "offsetX": 0,
+            "offsetY": 0,
+            "fit": "fill",
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 1050,
+          "y": 2850,
+          "width": 4150,
+          "height": 100,
+          "elevation": 0,
+          "sort": 185,
+          "occlusion": {
+            "mode": 0,
+            "alpha": 0
+          },
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": true,
+          "locked": true,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "monks-active-tiles": {
+              "name": "",
+              "active": true,
+              "record": false,
+              "restriction": "all",
+              "controlled": "all",
+              "trigger": [
+                "enter"
+              ],
+              "allowpaused": false,
+              "usealpha": false,
+              "pointer": false,
+              "vision": true,
+              "pertoken": false,
+              "minrequired": 0,
+              "cooldown": null,
+              "chance": 100,
+              "fileindex": -1,
+              "actions": [],
+              "files": []
+            },
+            "tagger": {},
+            "betterroofs": {
+              "brMode": false,
+              "occlusionLinkId": "",
+              "occlusionLinkSource": false
+            },
+            "tile-scroll": {
+              "enableScroll": false,
+              "scrollDirection": 0,
+              "enableRotate": false,
+              "scrollSpeed": 1,
+              "repeatx": 1,
+              "repeaty": 1,
+              "pivotx": 0.5,
+              "pivoty": 0.5,
+              "offsetx": 0,
+              "offsety": 0,
+              "parallax": 0
+            }
+          },
+          "_id": "OFTolD0WSrlPuPTc"
+        }
+      ],
+      "walls": [],
+      "playlist": "dtVSFlmuGq0G6IAz",
+      "playlistSound": null,
+      "journal": "EfOoiNpbuFUrJdQQ",
+      "journalEntryPage": null,
+      "weather": "",
+      "flags": {
+        "scene-packer": {
+          "hash": "39710cfbbebab33ca79b0fca8f8d52e63ac1c30e",
+          "sourceId": "Compendium.world.rotssscenes.Scene.K3HGXamjW5YWYXKO"
+        },
+        "monks-common-display": {
+          "screen": "scene"
+        },
+        "LockView": {
+          "lockPan": false,
+          "lockPanInit": false,
+          "lockZoom": false,
+          "lockZoomInit": false,
+          "boundingBox": false,
+          "boundingBoxInit": false,
+          "autoScale": "0",
+          "rotation": "0",
+          "sidebar": "noChange",
+          "blackenSidebar": false,
+          "excludeSidebar": false,
+          "hideUI": false,
+          "forceInit": false,
+          "hideUIelements": {
+            "controls": true,
+            "hotbar": true,
+            "logo": true,
+            "navigation": true,
+            "players": true,
+            "sidebar": false
+          },
+          "editViewbox": false
+        },
+        "fxmaster": {
+          "effects": {
+            "core_snowstorm": {
+              "type": "snowstorm",
+              "options": {
+                "scale": 0.5,
+                "direction": 90,
+                "speed": 1,
+                "lifetime": 1,
+                "density": 0.6,
+                "alpha": 1,
+                "tint": {
+                  "apply": false,
+                  "value": "#ffffff"
+                }
+              }
+            }
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "12.327",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.1",
+        "createdTime": 1719578953942,
+        "modifiedTime": 1719578978231,
+        "lastModifiedBy": "VvMwHSpv4dt5wmRV"
+      },
+      "sort": 100000,
+      "_id": "K3HGXamjW5YWYXKO"
+    }
+  ],
+  "source": {
+    "world": "raiders-of-the-serpent-sea-v12",
+    "system": "dnd5e",
+    "version": {
+      "core": "12.327",
+      "system": "3.2.1"
+    }
+  },
+  "folders": [
+    {
+      "name": "chapter 6",
+      "sorting": "a",
+      "folder": null,
+      "type": "Scene",
+      "description": "",
+      "color": "#849bd2",
+      "flags": {
+        "scene-packer": {
+          "hash": "fe4734637ce25133beccfeae20000f050e76a5d5"
+        }
+      },
+      "_stats": {
+        "coreVersion": "12.327",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.1",
+        "createdTime": 1719578975172,
+        "modifiedTime": 1719578975172,
+        "lastModifiedBy": "VvMwHSpv4dt5wmRV"
+      },
+      "_id": "EIxSkOLB42tVZ3oU"
+    }
+  ]
+}
