@@ -3,11 +3,11 @@
   "name": "axiumraidersfvtt",
   "title": "Axium Raiders of the serpent sea",
   "description": "Assets for Raiders of the serpents seas.  Art, tokens scenes.",
-  "version": "1.0.27",
+  "version": "1.0.28",
   "minimumCoreVersion": "11",
   "compatibleCoreVersion": "12",
   "compatibility": {
-    "minimum": "0.8.6",
+    "minimum": "11",
     "verified": "12"
   },
   "author": "Axium",
@@ -20,7 +20,7 @@
     {
       "name": "actors",
       "label": "ROTSS actors",
-      "path": "/packs/actors.db",
+      "path": "/packs/actors",
       "entity": "Actor",
       "type": "Actor",
       "system": "dnd5e"
@@ -28,14 +28,14 @@
     {
       "name": "cards",
       "label": "ROTSS Cards",
-      "path": "/packs/cards.db",
+      "path": "/packs/cards",
       "entity": "Cards",
       "type": "Cards"
     },
     {
       "name": "items",
       "label": "ROTSS items",
-      "path": "/packs/items.db",
+      "path": "/packs/items",
       "entity": "Item",
       "type": "Item",
       "system": "dnd5e"
@@ -43,35 +43,35 @@
     {
       "name": "journals",
       "label": "ROTSS journals",
-      "path": "/packs/journals.db",
+      "path": "/packs/journals",
       "entity": "JournalEntry",
       "type": "JournalEntry"
     },
     {
       "name": "macros",
       "label": "ROTSS macros",
-      "path": "/packs/macros.db",
+      "path": "/packs/macros",
       "entity": "Macro",
       "type": "Macro"
     },
     {
       "name": "maps",
       "label": "ROTSS scenes",
-      "path": "/packs/maps.db",
+      "path": "/packs/maps",
       "entity": "Scene",
       "type": "Scene"
     },
     {
       "name": "playlists",
       "label": "ROTSS playlists",
-      "path": "/packs/playlists.db",
+      "path": "/packs/playlists",
       "entity": "Playlist",
       "type": "Playlist"
     },
     {
       "name": "rolltables",
       "label": "ROTSS roltables",
-      "path": "/packs/rolltables.db",
+      "path": "/packs/rolltables",
       "entity": "RollTable",
       "type": "RollTable"
     }
