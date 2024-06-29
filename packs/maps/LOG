@@ -1,9 +1,0 @@
-2024/06/29-18:23:19.430 395c Recovering log #20
-2024/06/29-18:23:19.430 395c Level-0 table #22: started
-2024/06/29-18:23:19.433 395c Level-0 table #22: 15634 bytes OK
-2024/06/29-18:23:19.438 395c Delete type=0 #20
-2024/06/29-18:23:19.438 395c Delete type=3 #18
-2024/06/29-18:23:19.438 7a90 Compacting 4@0 + 1@1 files
-2024/06/29-18:23:19.442 7a90 Generated table #24@0: 244 keys, 61384 bytes
-2024/06/29-18:23:19.442 7a90 Compacted 4@0 + 1@1 files => 61384 bytes
-2024/06/29-18:23:19.443 7a90 compacted to: files[ 0 1 0 0 0 0 0 ]
