@@ -3,7 +3,7 @@
   "name": "axiumraidersfvtt",
   "title": "Axium Raiders of the serpent sea",
   "description": "Assets for Raiders of the serpents seas.  Art, tokens scenes.",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "minimumCoreVersion": "11",
   "compatibleCoreVersion": "12",
   "compatibility": {
@@ -19,7 +19,7 @@
   "packs": [
     {
       "name": "actors",
-      "label": "Raiders of the serpent sea",
+      "label": "ROTSS actors",
       "path": "/packs/actors.db",
       "entity": "Actor",
       "type": "Actor",
@@ -27,14 +27,14 @@
     },
     {
       "name": "cards",
-      "label": "Raiders of the serpent sea",
+      "label": "ROTSS Cards",
       "path": "/packs/cards.db",
       "entity": "Cards",
       "type": "Cards"
     },
     {
       "name": "items",
-      "label": "Raiders of the serpent sea",
+      "label": "ROTSS items",
       "path": "/packs/items.db",
       "entity": "Item",
       "type": "Item",
@@ -42,35 +42,35 @@
     },
     {
       "name": "journals",
-      "label": "Raiders of the serpent sea",
+      "label": "ROTSS journals",
       "path": "/packs/journals.db",
       "entity": "JournalEntry",
       "type": "JournalEntry"
     },
     {
       "name": "macros",
-      "label": "Raiders of the serpent sea",
+      "label": "ROTSS macros",
       "path": "/packs/macros.db",
       "entity": "Macro",
       "type": "Macro"
     },
     {
       "name": "maps",
-      "label": "Raiders of the serpent sea",
+      "label": "ROTSS scenes",
       "path": "/packs/maps.db",
       "entity": "Scene",
       "type": "Scene"
     },
     {
       "name": "playlists",
-      "label": "Raiders of the serpent sea",
+      "label": "ROTSS playlists",
       "path": "/packs/playlists.db",
       "entity": "Playlist",
       "type": "Playlist"
     },
     {
       "name": "rolltables",
-      "label": "Raiders of the serpent sea",
+      "label": "ROTSS roltables",
       "path": "/packs/rolltables.db",
       "entity": "RollTable",
       "type": "RollTable"
