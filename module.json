@@ -57,7 +57,7 @@
     {
       "name": "maps",
       "label": "Raiders of the serpent sea",
-      "path": "/packs/maps.db",
+      "path": "/packs/maps",
       "entity": "Scene",
       "type": "Scene"
     },
