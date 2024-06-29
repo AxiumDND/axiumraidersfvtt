@@ -4,10 +4,10 @@
   "title": "Raiders of the serpent sea",
   "description": "Assets for Raiders of the serpents seas.  Art, tokens scenes.",
   "version": "1.1.11",
-  "minimumCoreVersion": "11",
+  "minimumCoreVersion": "12",
   "compatibleCoreVersion": "12",
   "compatibility": {
-    "minimum": "11",
+    "minimum": "12",
     "verified": "12"
   },
   "authors": [
