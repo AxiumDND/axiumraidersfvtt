@@ -1,15 +1,15 @@
-{
-  "id": "axiumraidersfvtt",
+"id": "axiumraidersfvtt",
   "name": "axiumraidersfvtt",
-  "title": "Axium Raiders of the serpent sea",
+  "title": "Raiders of the serpent sea",
   "description": "Assets for Raiders of the serpents seas.  Art, tokens scenes.",
   "version": "1.1.1",
   "minimumCoreVersion": "11",
   "compatibleCoreVersion": "12",
   "compatibility": {
-    "minimum": "11",
+    "minimum": "0.8.6",
     "verified": "12"
   },
+  "author": "Axium",
   "authors": [
     {
       "name": "Axium"
@@ -18,7 +18,7 @@
   "packs": [
     {
       "name": "actors",
-      "label": "ROTSS actors",
+      "label": "Raiders of the serpent sea",
       "path": "/packs/actors",
       "entity": "Actor",
       "type": "Actor",
@@ -26,14 +26,14 @@
     },
     {
       "name": "cards",
-      "label": "ROTSS Cards",
+      "label": "Raiders of the serpent sea",
       "path": "/packs/cards",
       "entity": "Cards",
       "type": "Cards"
     },
     {
       "name": "items",
-      "label": "ROTSS items",
+      "label": "Raiders of the serpent sea",
       "path": "/packs/items",
       "entity": "Item",
       "type": "Item",
@@ -41,35 +41,35 @@
     },
     {
       "name": "journals",
-      "label": "ROTSS journals",
+      "label": "Raiders of the serpent sea",
       "path": "/packs/journals",
       "entity": "JournalEntry",
       "type": "JournalEntry"
     },
     {
       "name": "macros",
-      "label": "ROTSS macros",
+      "label": "Raiders of the serpent sea",
       "path": "/packs/macros",
       "entity": "Macro",
       "type": "Macro"
     },
     {
       "name": "maps",
-      "label": "ROTSS scenes",
-      "path": "/packs/maps",
+      "label": "Raiders of the serpent sea",
+      "path": "/packs/maps.db",
       "entity": "Scene",
       "type": "Scene"
     },
     {
       "name": "playlists",
-      "label": "ROTSS playlists",
+      "label": "Raiders of the serpent sea",
       "path": "/packs/playlists",
       "entity": "Playlist",
       "type": "Playlist"
     },
     {
       "name": "rolltables",
-      "label": "ROTSS roltables",
+      "label": "Raiders of the serpent sea",
       "path": "/packs/rolltables",
       "entity": "RollTable",
       "type": "RollTable"
@@ -80,5 +80,6 @@
   ],
   "url": "https://github.com/AxiumDND/axiumraidersfvtt",
   "manifest": "https://raw.githubusercontent.com/AxiumDND/axiumraidersfvtt/main/module.json",
-  "download": "https://github.com/AxiumDND/axiumraidersfvtt/archive/main.zip"
+  "download": "https://github.com/AxiumDND/axiumraidersfvtt/archive/main.zip",
+  "manifestPlusVersion": "1.2.0"
 }
