@@ -10,7 +10,6 @@
     "minimum": "11",
     "verified": "12"
   },
-  "author": "Axium",
   "authors": [
     {
       "name": "Axium"
@@ -81,5 +80,5 @@
   ],
   "url": "https://github.com/AxiumDND/axiumraidersfvtt",
   "manifest": "https://raw.githubusercontent.com/AxiumDND/axiumraidersfvtt/main/module.json",
-  "download": "https://github.com/AxiumDND/axiumraidersfvtt/archive/main.zip",
+  "download": "https://github.com/AxiumDND/axiumraidersfvtt/archive/main.zip"
 }
