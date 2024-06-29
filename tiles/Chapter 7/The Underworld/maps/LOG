@@ -1,0 +1,12 @@
+2024/06/29-16:26:32.209 5eb4 Recovering log #14
+2024/06/29-16:26:32.209 5eb4 Level-0 table #16: started
+2024/06/29-16:26:32.211 5eb4 Level-0 table #16: 6382 bytes OK
+2024/06/29-16:26:32.217 5eb4 Delete type=0 #14
+2024/06/29-16:26:32.217 5eb4 Delete type=3 #12
+2024/06/29-16:32:09.354 5d5c Compacting 2@0 + 1@1 files
+2024/06/29-16:32:09.356 5d5c Generated table #18@0: 115 keys, 28120 bytes
+2024/06/29-16:32:09.356 5d5c Compacted 2@0 + 1@1 files => 28120 bytes
+2024/06/29-16:32:09.358 5d5c compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/06/29-16:32:09.358 5d5c Delete type=2 #9
+2024/06/29-16:32:09.359 5d5c Delete type=2 #13
+2024/06/29-16:32:09.359 5d5c Delete type=2 #16
