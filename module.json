@@ -81,6 +81,5 @@
   ],
   "url": "https://github.com/AxiumDND/axiumraidersfvtt",
   "manifest": "https://raw.githubusercontent.com/AxiumDND/axiumraidersfvtt/main/module.json",
-  "download": "https://github.com/AxiumDND/axiumraidersfvtt/archive/main.zip",
-  "manifestPlusVersion": "1.2.0"
+  "download": "https://github.com/AxiumDND/axiumraidersfvtt/archive/main.zip"
 }
