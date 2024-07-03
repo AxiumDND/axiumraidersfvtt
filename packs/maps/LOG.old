@@ -1,0 +1,11 @@
+2024/07/03-13:23:44.476 4f44 Recovering log #60
+2024/07/03-13:23:44.477 4f44 Level-0 table #63: started
+2024/07/03-13:23:44.480 4f44 Level-0 table #63: 61478 bytes OK
+2024/07/03-13:23:44.484 4f44 Delete type=0 #60
+2024/07/03-13:23:44.485 4f44 Delete type=3 #58
+2024/07/03-13:23:44.852 9f4 Compacting 1@0 + 1@1 files
+2024/07/03-13:23:44.858 9f4 Generated table #65@0: 1207 keys, 235868 bytes
+2024/07/03-13:23:44.858 9f4 Compacted 1@0 + 1@1 files => 235868 bytes
+2024/07/03-13:23:44.860 9f4 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/07/03-13:23:44.860 9f4 Delete type=2 #61
+2024/07/03-13:23:44.860 9f4 Delete type=2 #63
