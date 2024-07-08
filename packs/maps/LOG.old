@@ -1,0 +1,9 @@
+2024/07/07-10:30:47.098 6af8 Recovering log #88
+2024/07/07-10:30:47.099 6af8 Level-0 table #91: started
+2024/07/07-10:30:47.103 6af8 Level-0 table #91: 25508 bytes OK
+2024/07/07-10:30:47.108 6af8 Delete type=0 #88
+2024/07/07-10:30:47.108 6af8 Delete type=3 #86
+2024/07/07-10:30:47.401 9648 Compacting 1@0 + 1@1 files
+2024/07/07-10:30:47.408 9648 Generated table #93@0: 1468 keys, 297175 bytes
+2024/07/07-10:30:47.408 9648 Compacted 1@0 + 1@1 files => 297175 bytes
+2024/07/07-10:30:47.410 9648 compacted to: files[ 0 1 0 0 0 0 0 ]
