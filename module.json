@@ -74,6 +74,17 @@
       "entity": "RollTable",
       "type": "RollTable"
     }
+    {
+      "name": "rotss-adventure",
+      "label": "ROTSS Adventure",
+      "path": "packs/rotss-adventure",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    }
   ],
   "esmodules": [
     "./scripts/init.js"
