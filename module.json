@@ -1,79 +1,101 @@
 {
   "id": "axiumraidersfvtt",
-  "name": "axiumraidersfvtt",
   "title": "Axium's extras for Raiders of the serpent sea",
   "description": "Assets for Raiders of the serpents seas.  Art, tokens and scenes. Modules Needed Monks active tile triggers,tagger,JB2A and tile scroll.",
-  "version": "12.1.13",
-  "minimumCoreVersion": "12",
-  "compatibleCoreVersion": "12",
+  "version": "12.1.14",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
   },
   "authors": [
     {
-      "name": "Axium"
+      "name": "Axium",
+      "flags": {}
     }
   ],
   "packs": [
     {
       "name": "actors",
       "label": "ROTSS actors",
-      "path": "/packs/actors",
-      "entity": "Actor",
+      "path": "packs/actors",
       "type": "Actor",
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "cards",
       "label": "ROTSS cards",
-      "path": "/packs/cards",
-      "entity": "Cards",
-      "type": "Cards"
+      "path": "packs/cards",
+      "type": "Cards",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "items",
       "label": "ROTSS items",
-      "path": "/packs/items",
-      "entity": "Item",
+      "path": "packs/items",
       "type": "Item",
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "journals",
       "label": "ROTSS journals",
-      "path": "/packs/journals",
-      "entity": "JournalEntry",
-      "type": "JournalEntry"
+      "path": "packs/journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "macros",
       "label": "ROTSS macros",
-      "path": "/packs/macros",
-      "entity": "Macro",
-      "type": "Macro"
+      "path": "packs/macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "maps",
       "label": "ROTSS maps",
-      "path": "/packs/maps",
-      "entity": "Scene",
-      "type": "Scene"
+      "path": "packs/maps",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "playlists",
       "label": "ROTSS playlists",
-      "path": "/packs/playlists",
-      "entity": "Playlist",
-      "type": "Playlist"
+      "path": "packs/playlists",
+      "type": "Playlist",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "rolltables",
       "label": "ROTSS rolltables",
-      "path": "/packs/rolltables",
-      "entity": "RollTable",
-      "type": "RollTable"
-    }
+      "path": "packs/rolltables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
     {
       "name": "rotss-adventure",
       "label": "ROTSS Adventure",
@@ -87,7 +109,7 @@
     }
   ],
   "esmodules": [
-    "./scripts/init.js"
+    "scripts/init.js"
   ],
   "url": "https://github.com/AxiumDND/axiumraidersfvtt",
   "manifest": "https://raw.githubusercontent.com/AxiumDND/axiumraidersfvtt/main/module.json",
