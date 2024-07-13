@@ -1,7 +1,7 @@
 {
   "id": "axiumraidersfvtt",
   "title": "Axium's extras for Raiders of the serpent sea",
-  "description": "Assets for Raiders of the serpents seas.  Art, tokens and scenes. Modules Needed Monks active tile triggers,tagger,JB2A and tile scroll.",
+  "description": "Assets for Raiders of the serpents seas. Art, tokens and scenes. Modules Needed Monks active tile triggers, tagger, JB2A and tile scroll.",
   "version": "12.1.14",
   "compatibility": {
     "minimum": "12",
@@ -30,6 +30,7 @@
       "label": "ROTSS cards",
       "path": "packs/cards",
       "type": "Cards",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -51,6 +52,7 @@
       "label": "ROTSS journals",
       "path": "packs/journals",
       "type": "JournalEntry",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -61,6 +63,7 @@
       "label": "ROTSS macros",
       "path": "packs/macros",
       "type": "Macro",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -71,6 +74,7 @@
       "label": "ROTSS maps",
       "path": "packs/maps",
       "type": "Scene",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -81,6 +85,7 @@
       "label": "ROTSS playlists",
       "path": "packs/playlists",
       "type": "Playlist",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -91,6 +96,7 @@
       "label": "ROTSS rolltables",
       "path": "packs/rolltables",
       "type": "RollTable",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -101,11 +107,11 @@
       "label": "ROTSS Adventure",
       "path": "packs/rotss-adventure",
       "type": "Adventure",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     }
   ],
   "esmodules": [
