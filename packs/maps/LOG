@@ -1,0 +1,9 @@
+2024/07/14-22:13:35.480 8a20 Recovering log #116
+2024/07/14-22:13:35.481 8a20 Level-0 table #119: started
+2024/07/14-22:13:35.483 8a20 Level-0 table #119: 21719 bytes OK
+2024/07/14-22:13:35.487 8a20 Delete type=0 #116
+2024/07/14-22:13:35.488 8a20 Delete type=3 #114
+2024/07/14-22:13:35.808 6ac Compacting 1@0 + 1@1 files
+2024/07/14-22:13:35.818 6ac Generated table #121@0: 2177 keys, 397826 bytes
+2024/07/14-22:13:35.818 6ac Compacted 1@0 + 1@1 files => 397826 bytes
+2024/07/14-22:13:35.820 6ac compacted to: files[ 0 1 0 0 0 0 0 ]
