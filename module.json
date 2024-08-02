@@ -2,7 +2,7 @@
   "id": "axiumraidersfvtt",
   "title": "Axium's extras for Raiders of the serpent sea",
   "description": "Assets for Raiders of the serpents seas. Art, tokens and scenes. Modules Needed Monks active tile triggers, tagger, JB2A and tile scroll.",
-  "version": "12.1.32",
+  "version": "12.1.33",
   "compatibility": {
     "minimum": "11",
     "verified": "12"
@@ -19,7 +19,6 @@
       "label": "ROTSS actors",
       "path": "packs/actors",
       "type": "Actor",
-      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -30,7 +29,6 @@
       "label": "ROTSS cards",
       "path": "packs/cards",
       "type": "Cards",
-      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -41,7 +39,6 @@
       "label": "ROTSS items",
       "path": "packs/items",
       "type": "Item",
-      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -52,7 +49,6 @@
       "label": "ROTSS journals",
       "path": "packs/journals",
       "type": "JournalEntry",
-      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -63,7 +59,6 @@
       "label": "ROTSS macros",
       "path": "packs/macros",
       "type": "Macro",
-      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -74,7 +69,6 @@
       "label": "ROTSS maps",
       "path": "packs/maps",
       "type": "Scene",
-      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -85,7 +79,6 @@
       "label": "ROTSS playlists",
       "path": "packs/playlists",
       "type": "Playlist",
-      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -96,7 +89,6 @@
       "label": "ROTSS rolltables",
       "path": "packs/rolltables",
       "type": "RollTable",
-      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -107,7 +99,6 @@
       "label": "ROTSS Adventure",
       "path": "packs/rotss-adventure",
       "type": "Adventure",
-      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
