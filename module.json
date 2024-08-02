@@ -2,7 +2,7 @@
   "id": "axiumraidersfvtt",
   "title": "Axium's extras for Raiders of the serpent sea",
   "description": "Assets for Raiders of the serpents seas. Art, tokens and scenes. Modules Needed Monks active tile triggers, tagger, JB2A and tile scroll.",
-  "version": "12.1.34",
+  "version": "12.1.35",
   "compatibility": {
     "minimum": "11",
     "verified": "12"
@@ -40,6 +40,7 @@
       "label": "ROTSS items",
       "path": "packs/items",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
