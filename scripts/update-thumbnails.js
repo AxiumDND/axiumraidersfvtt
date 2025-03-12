@@ -15,16 +15,26 @@ class ThumbnailManager {
         const scenes = mapPack.contents;
         console.log(`Found ${scenes.length} maps in compendium`);
 
-        // Get maps without thumbnails
-        const missingThumbs = scenes.filter(scene => !scene.thumbnail || scene.thumbnail === "");
+        // Get maps without thumbnails or with inconsistent thumbnails
+        const missingThumbs = scenes.filter(scene => {
+            // Check if thumbnail is missing
+            if (!scene.thumbnail || scene.thumbnail === "") return true;
+            
+            // Check if thumbnail path is consistent with background
+            if (scene.background?.src) {
+                const expectedThumb = scene.background.src.replace('/maps/', '/assets/scenes/').replace('.webp', '-thumb.webp');
+                return scene.thumbnail !== expectedThumb;
+            }
+            return true;
+        });
         
         if (missingThumbs.length === 0) {
-            const message = "All maps have thumbnails!";
+            const message = "All maps have correct thumbnails!";
             ui.notifications.info(message);
             return [];
         }
 
-        console.log(`Found ${missingThumbs.length} maps without thumbnails:`);
+        console.log(`Found ${missingThumbs.length} maps needing thumbnail updates:`);
         missingThumbs.forEach(scene => console.log(`- ${scene.name}`));
         
         return missingThumbs;
@@ -36,8 +46,10 @@ class ThumbnailManager {
         for (let scene of scenes) {
             if (scene.background?.src) {
                 try {
-                    // Generate thumbnail path
-                    const thumbPath = scene.background.src.replace(/\.[^/.]+$/, "_thumb.webp");
+                    // Generate correct thumbnail path based on background image path
+                    const thumbPath = scene.background.src
+                        .replace('/maps/', '/assets/scenes/')
+                        .replace('.webp', '-thumb.webp');
                     
                     // Update scene with thumbnail
                     await scene.update({
@@ -45,7 +57,7 @@ class ThumbnailManager {
                     });
                     
                     updatedCount++;
-                    console.log(`Updated thumbnail for: ${scene.name}`);
+                    console.log(`Updated thumbnail for: ${scene.name} -> ${thumbPath}`);
                 } catch (e) {
                     console.error(`Error updating thumbnail for ${scene.name}:`, e);
                 }
@@ -87,6 +99,11 @@ class ThumbnailManager {
                     if (!response.ok) {
                         sceneIssues.push(`Background image file not found: ${scene.background.src}`);
                     }
+
+                    // Check if background is in correct maps directory
+                    if (!scene.background.src.includes('/maps/')) {
+                        sceneIssues.push(`Background image not in maps directory: ${scene.background.src}`);
+                    }
                 } catch (e) {
                     sceneIssues.push(`Error accessing background image: ${e.message}`);
                 }
@@ -100,6 +117,26 @@ class ThumbnailManager {
                     const response = await fetch(scene.thumbnail);
                     if (!response.ok) {
                         sceneIssues.push(`Thumbnail file not found: ${scene.thumbnail}`);
+                    }
+
+                    // Check if thumbnail is in correct assets/scenes directory
+                    if (!scene.thumbnail.includes('/assets/scenes/')) {
+                        sceneIssues.push(`Thumbnail not in assets/scenes directory: ${scene.thumbnail}`);
+                    }
+
+                    // Check if thumbnail follows naming convention
+                    if (!scene.thumbnail.endsWith('-thumb.webp')) {
+                        sceneIssues.push(`Thumbnail does not follow naming convention: ${scene.thumbnail}`);
+                    }
+
+                    // Check if thumbnail path matches background path pattern
+                    if (scene.background?.src) {
+                        const expectedThumb = scene.background.src
+                            .replace('/maps/', '/assets/scenes/')
+                            .replace('.webp', '-thumb.webp');
+                        if (scene.thumbnail !== expectedThumb) {
+                            sceneIssues.push(`Thumbnail path inconsistent with background: ${scene.thumbnail}`);
+                        }
                     }
                 } catch (e) {
                     sceneIssues.push(`Error accessing thumbnail: ${e.message}`);
