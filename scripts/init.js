@@ -89,10 +89,10 @@ class AxiumRaidersValidator {
             try {
                 const packContent = await pack.getDocuments();
                 if (packContent.length === 0) {
-                    issues.push(`Empty compendium pack: ${pack.metadata.label}`);
+                    issues.push(`Empty compendium pack: ${pack.label || pack.name}`);
                 }
             } catch (e) {
-                issues.push(`Error accessing pack ${pack.metadata.label}: ${e.message}`);
+                issues.push(`Error accessing pack ${pack.label || pack.name}: ${e.message}`);
             }
         }
 
