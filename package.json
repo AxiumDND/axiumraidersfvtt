@@ -1,0 +1,23 @@
+{
+  "name": "axiumraidersfvtt",
+  "version": "1.0.0",
+  "description": "Enhanced content module for Raiders of the Serpent Seas, providing maps, tokens, and Theatre of the Mind scenes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AxiumDND/axiumraidersfvtt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AxiumDND/axiumraidersfvtt/issues"
+  },
+  "homepage": "https://github.com/AxiumDND/axiumraidersfvtt#readme",
+  "dependencies": {
+    "sharp": "^0.33.5"
+  }
+}
