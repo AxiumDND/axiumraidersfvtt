@@ -1,0 +1,23 @@
+# Backup folder
+backup/
+backup/*
+
+# Node.js dependencies and files
+node_modules/
+package.json
+package-lock.json
+
+# Generated thumbnails script (development only)
+scripts/generate-thumbnails.js
+
+# LevelDB temporary files
+*.log
+*.ldb
+MANIFEST-*
+CURRENT
+LOG
+LOG.old
+
+# System files
+.DS_Store
+Thumbs.db 

@@ -2,7 +2,7 @@
   "id": "axiumraidersfvtt",
   "title": "Axium's Raiders of the Serpent Sea",
   "description": "Enhanced content for Raiders of the Serpent Seas including maps, tokens, and Theatre of the Mind scenes. Features V12-compatible maps with advanced tile functionality.",
-  "version": "12.2.5",
+  "version": "12.2.6",
   "compatibility": {
     "minimum": "11",
     "verified": "12",
