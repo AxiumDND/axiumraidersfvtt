@@ -59,6 +59,78 @@ class ThumbnailManager {
         console.log(message);
     }
 
+    static async validateMapFiles() {
+        console.log('Axium Raiders | Starting map file validation');
+        const issues = [];
+
+        // Get the maps compendium
+        const mapPack = game.packs.get("axiumraidersfvtt.maps");
+        if (!mapPack) {
+            ui.notifications.error("Maps compendium not found!");
+            return;
+        }
+
+        // Load all maps
+        await mapPack.getDocuments();
+        const scenes = mapPack.contents;
+        console.log(`Validating ${scenes.length} maps in compendium`);
+
+        for (let scene of scenes) {
+            const sceneIssues = [];
+            
+            // Check background image
+            if (!scene.background?.src) {
+                sceneIssues.push("Missing background image source");
+            } else {
+                try {
+                    const response = await fetch(scene.background.src);
+                    if (!response.ok) {
+                        sceneIssues.push(`Background image file not found: ${scene.background.src}`);
+                    }
+                } catch (e) {
+                    sceneIssues.push(`Error accessing background image: ${e.message}`);
+                }
+            }
+
+            // Check thumbnail
+            if (!scene.thumbnail) {
+                sceneIssues.push("Missing thumbnail path");
+            } else {
+                try {
+                    const response = await fetch(scene.thumbnail);
+                    if (!response.ok) {
+                        sceneIssues.push(`Thumbnail file not found: ${scene.thumbnail}`);
+                    }
+                } catch (e) {
+                    sceneIssues.push(`Error accessing thumbnail: ${e.message}`);
+                }
+            }
+
+            if (sceneIssues.length > 0) {
+                issues.push({
+                    name: scene.name,
+                    issues: sceneIssues
+                });
+            }
+        }
+
+        // Report results
+        if (issues.length === 0) {
+            const message = "All map files validated successfully!";
+            ui.notifications.info(message);
+            console.log(message);
+        } else {
+            console.log("Found issues with the following maps:");
+            issues.forEach(item => {
+                console.log(`\n${item.name}:`);
+                item.issues.forEach(issue => console.log(`- ${issue}`));
+            });
+            ui.notifications.warn(`Found issues with ${issues.length} maps. Check console for details.`);
+        }
+
+        return issues;
+    }
+
     static registerSettings() {
         game.settings.registerMenu("axiumraidersfvtt", "thumbnailManager", {
             name: "Map Thumbnail Manager",
@@ -100,6 +172,7 @@ class ThumbnailManagerForm extends FormApplication {
         html.find('button[name="check"]').click(this._onCheckThumbnails.bind(this));
         html.find('button[name="update-all"]').click(this._onUpdateAll.bind(this));
         html.find('button[name="update-selected"]').click(this._onUpdateSelected.bind(this));
+        html.find('button[name="validate"]').click(this._onValidate.bind(this));
     }
 
     async _onCheckThumbnails(event) {
