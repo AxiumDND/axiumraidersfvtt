@@ -1,18 +1,65 @@
 {
   "id": "axiumraidersfvtt",
-  "title": "Axium's extras for Raiders of the serpent sea",
-  "description": "Assets for Raiders of the serpents seas. Art, tokens and scenes. Modules Needed Monks active tile triggers, tagger, JB2A and tile scroll.",
+  "title": "Axium's Raiders of the Serpent Sea",
+  "description": "Enhanced content for Raiders of the Serpent Seas including maps, tokens, and Theatre of the Mind scenes. Features V12-compatible maps with advanced tile functionality.",
   "version": "12.1.50",
   "compatibility": {
     "minimum": "11",
-    "verified": "12"
+    "verified": "12",
+    "maximum": "12"
   },
   "authors": [
     {
       "name": "Axium",
-      "flags": {}
+      "discord": "Axium"
     }
   ],
+  "dependencies": [
+    {
+      "name": "monks-active-tiles",
+      "type": "module",
+      "manifest": "https://github.com/ironmonk88/monks-active-tiles/releases/latest/download/module.json"
+    },
+    {
+      "name": "tagger",
+      "type": "module"
+    },
+    {
+      "name": "JB2A_DnD5e",
+      "type": "module"
+    },
+    {
+      "name": "tile-scroll",
+      "type": "module"
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "monks-active-tiles",
+        "type": "module",
+        "manifest": "https://github.com/ironmonk88/monks-active-tiles/releases/latest/download/module.json",
+        "compatibility": {
+          "verified": "11.5"
+        }
+      },
+      {
+        "id": "tagger",
+        "type": "module",
+        "compatibility": {
+          "verified": "11.0"
+        }
+      },
+      {
+        "id": "JB2A_DnD5e",
+        "type": "module"
+      },
+      {
+        "id": "tile-scroll",
+        "type": "module"
+      }
+    ]
+  },
   "packs": [
     {
       "name": "actors",
@@ -111,7 +158,13 @@
   "esmodules": [
     "scripts/init.js"
   ],
+  "styles": [],
+  "languages": [],
   "url": "https://github.com/AxiumDND/axiumraidersfvtt",
   "manifest": "https://raw.githubusercontent.com/AxiumDND/axiumraidersfvtt/main/module.json",
-  "download": "https://github.com/AxiumDND/axiumraidersfvtt/archive/main.zip"
+  "download": "https://github.com/AxiumDND/axiumraidersfvtt/archive/main.zip",
+  "license": "MIT",
+  "readme": "README.md",
+  "bugs": "https://github.com/AxiumDND/axiumraidersfvtt/issues",
+  "changelog": "https://github.com/AxiumDND/axiumraidersfvtt/releases"
 }
