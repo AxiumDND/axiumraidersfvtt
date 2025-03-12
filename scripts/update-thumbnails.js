@@ -15,37 +15,46 @@ class ThumbnailManager {
         const scenes = mapPack.contents;
         console.log(`Found ${scenes.length} maps in compendium`);
 
-        let missingThumbs = 0;
-        let updatedThumbs = 0;
+        // Get maps without thumbnails
+        const missingThumbs = scenes.filter(scene => !scene.thumbnail || scene.thumbnail === "");
+        
+        if (missingThumbs.length === 0) {
+            const message = "All maps have thumbnails!";
+            ui.notifications.info(message);
+            return [];
+        }
 
-        // Check each scene
+        console.log(`Found ${missingThumbs.length} maps without thumbnails:`);
+        missingThumbs.forEach(scene => console.log(`- ${scene.name}`));
+        
+        return missingThumbs;
+    }
+
+    static async updateThumbnails(scenes) {
+        let updatedCount = 0;
+
         for (let scene of scenes) {
-            if (!scene.thumbnail || scene.thumbnail === "") {
-                missingThumbs++;
-                console.log(`Missing thumbnail for: ${scene.name}`);
-
-                // If scene has a background image, use it to generate thumbnail
-                if (scene.background?.src) {
-                    try {
-                        // Generate thumbnail path
-                        const thumbPath = scene.background.src.replace(/\.[^/.]+$/, "_thumb.webp");
-                        
-                        // Update scene with thumbnail
-                        await scene.update({
-                            thumbnail: thumbPath
-                        });
-                        
-                        updatedThumbs++;
-                        console.log(`Updated thumbnail for: ${scene.name}`);
-                    } catch (e) {
-                        console.error(`Error updating thumbnail for ${scene.name}:`, e);
-                    }
+            if (scene.background?.src) {
+                try {
+                    // Generate thumbnail path
+                    const thumbPath = scene.background.src.replace(/\.[^/.]+$/, "_thumb.webp");
+                    
+                    // Update scene with thumbnail
+                    await scene.update({
+                        thumbnail: thumbPath
+                    });
+                    
+                    updatedCount++;
+                    console.log(`Updated thumbnail for: ${scene.name}`);
+                } catch (e) {
+                    console.error(`Error updating thumbnail for ${scene.name}:`, e);
                 }
+            } else {
+                console.warn(`No background image for: ${scene.name}`);
             }
         }
 
-        // Report results
-        const message = `Thumbnail Check Complete:\n${missingThumbs} missing thumbnails found\n${updatedThumbs} thumbnails updated`;
+        const message = `Update Complete: ${updatedCount} thumbnails updated`;
         ui.notifications.info(message);
         console.log(message);
     }
@@ -62,29 +71,57 @@ class ThumbnailManager {
 }
 
 class ThumbnailManagerForm extends FormApplication {
+    constructor(object = {}, options = {}) {
+        super(object, options);
+        this.missingThumbs = [];
+    }
+
     static get defaultOptions() {
         return mergeObject(super.defaultOptions, {
             id: "thumbnail-manager",
             title: "Map Thumbnail Manager",
             template: `modules/axiumraidersfvtt/templates/thumbnail-manager.html`,
-            width: 400
+            width: 500,
+            height: "auto"
         });
     }
 
-    getData() {
+    async getData() {
+        this.missingThumbs = await ThumbnailManager.checkThumbnails();
         return {
-            message: "Click the button below to check and update missing thumbnails in the maps compendium."
+            message: "Use the buttons below to manage map thumbnails.",
+            missingThumbs: this.missingThumbs,
+            hasMissingThumbs: this.missingThumbs.length > 0
         };
     }
 
     activateListeners(html) {
         super.activateListeners(html);
         html.find('button[name="check"]').click(this._onCheckThumbnails.bind(this));
+        html.find('button[name="update-all"]').click(this._onUpdateAll.bind(this));
+        html.find('button[name="update-selected"]').click(this._onUpdateSelected.bind(this));
     }
 
     async _onCheckThumbnails(event) {
         event.preventDefault();
-        await ThumbnailManager.checkThumbnails();
+        this.render(true);
+    }
+
+    async _onUpdateAll(event) {
+        event.preventDefault();
+        await ThumbnailManager.updateThumbnails(this.missingThumbs);
+        this.render(true);
+    }
+
+    async _onUpdateSelected(event) {
+        event.preventDefault();
+        const selected = this.element.find('input:checked').map(function() {
+            return this.value;
+        }).get();
+        
+        const scenesToUpdate = this.missingThumbs.filter(scene => selected.includes(scene.id));
+        await ThumbnailManager.updateThumbnails(scenesToUpdate);
+        this.render(true);
     }
 }
 
