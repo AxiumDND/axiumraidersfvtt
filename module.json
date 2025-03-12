@@ -156,7 +156,8 @@
     }
   ],
   "esmodules": [
-    "scripts/init.js"
+    "scripts/init.js",
+    "scripts/update-thumbnails.js"
   ],
   "styles": [],
   "languages": [],
