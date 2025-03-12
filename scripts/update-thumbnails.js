@@ -196,6 +196,11 @@ class ThumbnailManagerForm extends FormApplication {
         await ThumbnailManager.updateThumbnails(scenesToUpdate);
         this.render(true);
     }
+
+    async _onValidate(event) {
+        event.preventDefault();
+        await ThumbnailManager.validateMapFiles();
+    }
 }
 
 // Register the tool in module settings
