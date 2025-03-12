@@ -162,7 +162,7 @@
   "languages": [],
   "url": "https://github.com/AxiumDND/axiumraidersfvtt",
   "manifest": "https://raw.githubusercontent.com/AxiumDND/axiumraidersfvtt/main/module.json",
-  "download": "https://github.com/AxiumDND/axiumraidersfvtt/archive/refs/tags/v12.2.8.zip",
+  "download": "https://github.com/AxiumDND/axiumraidersfvtt/releases/download/v12.2.8/axiumraidersfvtt.zip",
   "license": "MIT",
   "readme": "README.md",
   "bugs": "https://github.com/AxiumDND/axiumraidersfvtt/issues",
