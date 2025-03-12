@@ -157,7 +157,8 @@
   ],
   "esmodules": [
     "scripts/init.js",
-    "scripts/update-thumbnails.js"
+    "scripts/update-thumbnails.js",
+    "scripts/fix-compendium.js"
   ],
   "styles": [],
   "languages": [],
