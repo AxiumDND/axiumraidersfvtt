@@ -1,11 +1,22 @@
-2024/08/04-14:03:46.563 95b8 Recovering log #138
-2024/08/04-14:03:46.563 95b8 Level-0 table #141: started
-2024/08/04-14:03:46.566 95b8 Level-0 table #141: 5218 bytes OK
-2024/08/04-14:03:46.571 95b8 Delete type=0 #138
-2024/08/04-14:03:46.571 95b8 Delete type=3 #136
-2024/08/04-14:03:46.844 9360 Compacting 1@0 + 1@1 files
-2024/08/04-14:03:46.857 9360 Generated table #143@0: 2226 keys, 403149 bytes
-2024/08/04-14:03:46.857 9360 Compacted 1@0 + 1@1 files => 403149 bytes
-2024/08/04-14:03:46.858 9360 compacted to: files[ 0 1 0 0 0 0 0 ]
-2024/08/04-14:03:46.859 9360 Delete type=2 #139
-2024/08/04-14:03:46.859 9360 Delete type=2 #141
+2025/02/15-08:20:14.402 125c Recovering log #146
+2025/02/15-08:20:14.403 125c Level-0 table #149: started
+2025/02/15-08:20:14.407 125c Level-0 table #149: 58793 bytes OK
+2025/02/15-08:20:14.411 125c Delete type=0 #146
+2025/02/15-08:20:14.412 125c Delete type=3 #144
+2025/02/15-08:20:15.978 3684 Compacting 1@0 + 1@1 files
+2025/02/15-08:20:15.989 3684 Generated table #151@0: 2792 keys, 457777 bytes
+2025/02/15-08:20:15.989 3684 Compacted 1@0 + 1@1 files => 457777 bytes
+2025/02/15-08:20:15.991 3684 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/02/15-08:20:15.991 3684 Delete type=2 #147
+2025/02/15-08:20:15.991 3684 Delete type=2 #149
+2025/02/15-08:21:29.834 3684 Level-0 table #153: started
+2025/02/15-08:21:29.843 3684 Level-0 table #153: 464509 bytes OK
+2025/02/15-08:21:29.845 3684 Delete type=0 #150
+2025/02/15-08:21:29.858 3684 Manual compaction at level-0 from '!folders!CDC3cVm9ue4Sldbw' @ 72057594037927935 : 1 .. '!scenes.walls!oW8ks46j9L37s7YG.zzlOlIPqTbcnc59s' @ 0 : 0; will stop at '!scenes.walls!oW8ks46j9L37s7YG.zzlOlIPqTbcnc59s' @ 13702 : 1
+2025/02/15-08:21:29.858 3684 Compacting 1@0 + 1@1 files
+2025/02/15-08:21:29.869 3684 Generated table #154@0: 2792 keys, 465561 bytes
+2025/02/15-08:21:29.869 3684 Compacted 1@0 + 1@1 files => 465561 bytes
+2025/02/15-08:21:29.870 3684 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/02/15-08:21:29.871 3684 Delete type=2 #151
+2025/02/15-08:21:29.871 3684 Delete type=2 #153
+2025/02/15-08:21:29.877 3684 Manual compaction at level-0 from '!scenes.walls!oW8ks46j9L37s7YG.zzlOlIPqTbcnc59s' @ 13702 : 1 .. '!scenes.walls!oW8ks46j9L37s7YG.zzlOlIPqTbcnc59s' @ 0 : 0; will stop at (end)

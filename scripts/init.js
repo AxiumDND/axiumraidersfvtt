@@ -87,8 +87,14 @@ class AxiumRaidersValidator {
 
         for (let pack of packs) {
             try {
-                const packContent = await pack.getDocuments();
-                if (packContent.length === 0) {
+                const actualPack = game.packs.get(`${this.MODULE_ID}.${pack.name}`);
+                if (!actualPack) {
+                    issues.push(`Could not find pack: ${pack.label || pack.name}`);
+                    continue;
+                }
+                
+                const index = await actualPack.getIndex();
+                if (index.size === 0) {
                     issues.push(`Empty compendium pack: ${pack.label || pack.name}`);
                 }
             } catch (e) {
