@@ -36,4 +36,7 @@ Thumbs.db
 
 # System and IDE files
 .idea/
-.vscode/ 
+.vscode/
+
+# AI Information folder
+AI_INFO/ 

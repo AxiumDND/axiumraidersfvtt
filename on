@@ -1,0 +1,22 @@
+[1mdiff --git a/module.json b/module.json[m
+[1mindex 67302fb..4a5812b 100644[m
+[1m--- a/module.json[m
+[1m+++ b/module.json[m
+[36m@@ -2,7 +2,7 @@[m
+   "id": "axiumraidersfvtt",[m
+   "title": "Axium's Raiders of the Serpent Sea",[m
+   "description": "Enhanced content for Raiders of the Serpent Seas including maps, tokens, and Theatre of the Mind scenes. Features V12-compatible maps with advanced tile functionality.",[m
+[31m-  "version": "12.2.11",[m
+[32m+[m[32m  "version": "12.2.12",[m
+   "compatibility": {[m
+     "minimum": "11",[m
+     "verified": "13",[m
+[36m@@ -162,7 +162,7 @@[m
+   "languages": [],[m
+   "url": "https://github.com/AxiumDND/axiumraidersfvtt",[m
+   "manifest": "https://raw.githubusercontent.com/AxiumDND/axiumraidersfvtt/main/module.json",[m
+[31m-  "download": "https://github.com/AxiumDND/axiumraidersfvtt/archive/refs/tags/v12.2.11.zip",[m
+[32m+[m[32m  "download": "https://github.com/AxiumDND/axiumraidersfvtt/archive/refs/tags/v12.2.12.zip",[m
+   "license": "MIT",[m
+   "readme": "README.md",[m
+   "bugs": "https://github.com/AxiumDND/axiumraidersfvtt/issues",[m
