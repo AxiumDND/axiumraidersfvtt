@@ -95,7 +95,7 @@ class AxiumRaidersValidator {
                 
                 const index = await actualPack.getIndex();
                 if (index.size === 0) {
-                    issues.push(`Empty compendium pack: ${pack.label || pack.name}`);
+                    console.log(`Empty compendium pack: ${pack.label || pack.name} (This is not an error)`);
                 }
             } catch (e) {
                 issues.push(`Error accessing pack ${pack.label || pack.name}: ${e.message}`);
