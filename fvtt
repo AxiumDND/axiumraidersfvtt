@@ -1,0 +1,8 @@
+[33mcommit c5bfe8588a457b7752f8e7cb7aa508b0ebaee66b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;33mtag: [m[1;33mv12.2.13[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: AxiumDND <codemonkey.jw@gmail.com>
+Date:   Mon Mar 17 15:03:38 2025 +0000
+
+    v12.2.13: Fix empty compendium pack validation warnings
+
+module.json
+scripts/init.js
