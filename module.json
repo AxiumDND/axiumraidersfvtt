@@ -2,7 +2,9 @@
   "id": "axiumraidersfvtt",
   "title": "Axium's Raiders of the Serpent Sea",
   "description": "Enhanced content for Raiders of the Serpent Seas including maps, tokens, and Theatre of the Mind scenes. Features V12-compatible maps with advanced tile functionality.",
-  "version": "12.2.15",
+  "version": "12.2.16",
+  "minimumCoreVersion": "11",
+  "compatibleCoreVersion": "13",
   "compatibility": {
     "minimum": "11",
     "verified": "13",
@@ -18,19 +20,23 @@
     {
       "name": "monks-active-tiles",
       "type": "module",
-      "manifest": "https://github.com/ironmonk88/monks-active-tiles/releases/latest/download/module.json"
+      "manifest": "https://github.com/ironmonk88/monks-active-tiles/releases/latest/download/module.json",
+      "minimumVersion": "1.0.0"
     },
     {
       "name": "tagger",
-      "type": "module"
+      "type": "module",
+      "minimumVersion": "1.0.0"
     },
     {
       "name": "JB2A_DnD5e",
-      "type": "module"
+      "type": "module",
+      "minimumVersion": "0.5.0"
     },
     {
       "name": "tile-scroll",
-      "type": "module"
+      "type": "module",
+      "minimumVersion": "1.0.0"
     }
   ],
   "relationships": {
@@ -158,13 +164,25 @@
   "esmodules": [
     "scripts/init.js"
   ],
-  "styles": [],
-  "languages": [],
+  "styles": [
+    "styles/module.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ],
   "url": "https://github.com/AxiumDND/axiumraidersfvtt",
   "manifest": "https://raw.githubusercontent.com/AxiumDND/axiumraidersfvtt/main/module.json",
-  "download": "https://github.com/AxiumDND/axiumraidersfvtt/archive/refs/tags/v12.2.15.zip",
+  "download": "https://github.com/AxiumDND/axiumraidersfvtt/archive/refs/tags/v12.2.16.zip",
   "license": "MIT",
   "readme": "README.md",
   "bugs": "https://github.com/AxiumDND/axiumraidersfvtt/issues",
-  "changelog": "https://github.com/AxiumDND/axiumraidersfvtt/releases"
+  "changelog": "https://github.com/AxiumDND/axiumraidersfvtt/releases",
+  "documentation": "https://github.com/AxiumDND/axiumraidersfvtt/wiki",
+  "flags": {
+    "allowBugReporter": true
+  }
 }
