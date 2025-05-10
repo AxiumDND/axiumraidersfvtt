@@ -161,28 +161,14 @@
       }
     }
   ],
-  "esmodules": [
-    "scripts/init.js"
-  ],
-  "styles": [
-    "styles/module.css"
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json"
-    }
-  ],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
   "url": "https://github.com/AxiumDND/axiumraidersfvtt",
   "manifest": "https://raw.githubusercontent.com/AxiumDND/axiumraidersfvtt/main/module.json",
   "download": "https://github.com/AxiumDND/axiumraidersfvtt/archive/refs/tags/v12.2.16.zip",
   "license": "MIT",
   "readme": "README.md",
   "bugs": "https://github.com/AxiumDND/axiumraidersfvtt/issues",
-  "changelog": "https://github.com/AxiumDND/axiumraidersfvtt/releases",
-  "documentation": "https://github.com/AxiumDND/axiumraidersfvtt/wiki",
-  "flags": {
-    "allowBugReporter": true
-  }
+  "changelog": "https://github.com/AxiumDND/axiumraidersfvtt/releases"
 }
