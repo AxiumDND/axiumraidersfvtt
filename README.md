@@ -28,8 +28,22 @@ Enhanced content module for Raiders of the Serpent Seas, providing maps, tokens,
    ```
    https://raw.githubusercontent.com/AxiumDND/axiumraidersfvtt/main/module.json
    ```
-2. Enable the module in your world's module settings
-3. Make sure all required modules are installed and enabled
+   This will always install the latest version of the module.
+
+2. Click "Install" and wait for the installation to complete
+3. Enable the module in your world's module settings
+4. Make sure all required modules are installed and enabled:
+   - Monk's Active Tile Triggers
+   - Tagger
+   - JB2A (Jules&Ben's Animated Assets)
+   - Tile Scroll
+
+### Troubleshooting Installation
+If you encounter any issues during installation:
+1. Make sure you're using the latest version of Foundry VTT
+2. Verify all required modules are installed and up to date
+3. Clear your browser cache and try again
+4. If problems persist, please report the issue on our [GitHub Issue Tracker](https://github.com/AxiumDND/axiumraidersfvtt/issues)
 
 ## Content
 
