@@ -1,7 +1,2 @@
-2025/02/15-08:22:49.859 4f7c Recovering log #152
-2025/02/15-08:22:49.864 4f7c Delete type=0 #152
-2025/02/15-08:22:49.864 4f7c Delete type=3 #148
-2025/02/15-08:27:43.292 3684 Level-0 table #158: started
-2025/02/15-08:27:43.292 3684 Level-0 table #158: 0 bytes OK
-2025/02/15-08:27:43.294 3684 Delete type=0 #156
-2025/02/15-08:27:43.294 3684 Manual compaction at level-0 from '!folders!CDC3cVm9ue4Sldbw' @ 72057594037927935 : 1 .. '!scenes.walls!oW8ks46j9L37s7YG.zzlOlIPqTbcnc59s' @ 0 : 0; will stop at (end)
+2025/05/10-08:07:26.590 48d0 Table #154: 2792 entries OK
+2025/05/10-08:07:26.595 48d0 **** Repaired leveldb C:\Users\woody\AppData\Local\FoundryVTT\Data\modules\axiumraidersfvtt\packs\maps; recovered 1 files; 465561 bytes. Some data may have been lost. ****
