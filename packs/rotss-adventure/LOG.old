@@ -1,7 +1,2 @@
-2025/02/15-08:22:49.899 22a0 Recovering log #37
-2025/02/15-08:22:49.904 22a0 Delete type=0 #37
-2025/02/15-08:22:49.904 22a0 Delete type=3 #34
-2025/02/15-08:27:43.315 3684 Level-0 table #43: started
-2025/02/15-08:27:43.315 3684 Level-0 table #43: 0 bytes OK
-2025/02/15-08:27:43.317 3684 Delete type=0 #41
-2025/02/15-08:27:43.318 3684 Manual compaction at level-0 from '!adventures!Yk96GuETjHxmbwgk' @ 72057594037927935 : 1 .. '!adventures!Yk96GuETjHxmbwgk' @ 0 : 0; will stop at (end)
+2025/05/10-09:57:43.210 5e58 Table #39: 1 entries OK
+2025/05/10-09:57:43.216 5e58 **** Repaired leveldb C:\Users\woody\AppData\Local\FoundryVTT\Data\modules\axiumraidersfvtt\packs\rotss-adventure; recovered 1 files; 246336 bytes. Some data may have been lost. ****
