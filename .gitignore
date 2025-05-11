@@ -10,7 +10,13 @@ package-lock.json
 # Generated thumbnails script (development only)
 scripts/generate-thumbnails.js
 
-# LevelDB temporary files
+# LevelDB temporary files (excluding packs directory)
+!packs/**/*.log
+!packs/**/*.ldb
+!packs/**/MANIFEST-*
+!packs/**/CURRENT
+!packs/**/LOG
+!packs/**/LOG.old
 *.log
 *.ldb
 MANIFEST-*
