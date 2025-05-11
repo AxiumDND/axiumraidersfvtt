@@ -2,7 +2,7 @@
   "id": "axiumraidersfvtt",
   "title": "Axium's Raiders of the Serpent Sea",
   "description": "Enhanced content for Raiders of the Serpent Seas including maps, tokens, and Theatre of the Mind scenes. Features V12-compatible maps with advanced tile functionality.",
-  "version": "12.2.21",
+  "version": "12.2.22",
   "minimumCoreVersion": "11",
   "compatibleCoreVersion": "13",
   "compatibility": {
@@ -166,7 +166,7 @@
   "languages": [],
   "url": "https://github.com/AxiumDND/axiumraidersfvtt",
   "manifest": "https://raw.githubusercontent.com/AxiumDND/axiumraidersfvtt/main/module.json",
-  "download": "https://github.com/AxiumDND/axiumraidersfvtt/archive/refs/tags/v12.2.21.zip",
+  "download": "https://github.com/AxiumDND/axiumraidersfvtt/archive/refs/tags/v12.2.22.zip",
   "license": "MIT",
   "readme": "README.md",
   "bugs": "https://github.com/AxiumDND/axiumraidersfvtt/issues",
