@@ -1,5 +1,6 @@
 const { ClassicLevel } = require('classic-level');
 const path = require('path');
+const fs = require('fs');
 
 async function main() {
   console.log('Starting thumbnail path updates...');
@@ -13,37 +14,39 @@ async function main() {
   });
 
   try {
-    // Scenes that need to be updated
-    const scenesToUpdate = {
-      '!scenes!4RW2DojSIMqjVp0E': 'bQpv7mcDPRsJ4gDY-thumb.webp',
-      '!scenes!MFrs54blaNmn0YiZ': 'DGwlHI1inUU0hbAO-thumb.webp',
-      '!scenes!Q3SPLO9Sda9JHe8G': 'ib2lQcbCnyeiDXBR-thumb.webp',
-      '!scenes!oW8ks46j9L37s7YG': 'J7k67yobZyNpbiL1-thumb.webp'
-    };
+    // Get all thumbnails
+    const thumbsDir = path.join(__dirname, '..', 'assets', 'scenes');
+    const thumbnails = fs.readdirSync(thumbsDir)
+      .filter(file => file.endsWith('-thumb.webp'));
 
-    // Update each scene
-    for (const [sceneKey, thumbFilename] of Object.entries(scenesToUpdate)) {
+    // Get all scenes from database
+    let updatedCount = 0;
+    for await (const [key, value] of db.iterator()) {
+      if (!key.startsWith('!scenes!')) continue;
+
       try {
-        // Get the scene data
-        const sceneData = JSON.parse(await db.get(sceneKey));
+        const sceneData = JSON.parse(value);
+        if (!sceneData.thumb) continue;
+
+        // Extract thumbnail filename from current path
+        const currentThumb = path.basename(sceneData.thumb);
         
-        // Update the thumbnail path
-        const oldPath = sceneData.thumb;
-        const newPath = 'modules/axiumraidersfvtt/assets/scenes/' + thumbFilename;
-        sceneData.thumb = newPath;
-        
-        // Save the updated scene data
-        await db.put(sceneKey, JSON.stringify(sceneData));
-        
-        console.log(`\nUpdated scene ${sceneKey}:`);
-        console.log('Old path:', oldPath);
-        console.log('New path:', newPath);
+        // If thumbnail exists in our assets directory
+        if (thumbnails.includes(currentThumb)) {
+          const newPath = 'modules/axiumraidersfvtt/assets/scenes/' + currentThumb;
+          if (sceneData.thumb !== newPath) {
+            sceneData.thumb = newPath;
+            await db.put(key, JSON.stringify(sceneData));
+            console.log(`Updated scene ${key}: ${newPath}`);
+            updatedCount++;
+          }
+        }
       } catch (err) {
-        console.error(`Error updating scene ${sceneKey}:`, err);
+        console.error(`Error updating scene ${key}:`, err);
       }
     }
 
-    console.log('\nFinished updating thumbnail paths');
+    console.log(`\nFinished updating ${updatedCount} thumbnail paths`);
   } catch (error) {
     console.error('Error:', error);
   } finally {
