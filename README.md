@@ -4,7 +4,7 @@ Enhanced content module for Raiders of the Serpent Seas, providing maps, tokens,
 
 ## Features
 
-- Enhanced maps with V12 features
+- Enhanced maps tested through Foundry VTT v14
 - Theatre of the Mind scenes
 - Custom token art
 - Integrated tile-based interactions
@@ -13,7 +13,7 @@ Enhanced content module for Raiders of the Serpent Seas, providing maps, tokens,
 ## Requirements
 
 ### Core Software
-- Foundry VTT v11 or higher (v12 recommended)
+- Foundry VTT v11 through v14 (v13 or v14 recommended)
 - DnD5e System
 
 ### Required Modules
@@ -57,7 +57,8 @@ This module includes:
 
 ## Version Compatibility
 
-- Fully compatible with Foundry VTT v12
+- Verified on Foundry VTT v14 (latest)
+- Fully compatible with v12 and v13
 - Basic compatibility with v11 (some features may have limited functionality)
 
 ## Support

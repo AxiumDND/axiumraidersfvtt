@@ -1,7 +1,7 @@
 {
   "id": "axiumraidersfvtt",
   "title": "Axium's Raiders of the Serpent Sea",
-  "description": "Enhanced content for Raiders of the Serpent Seas including maps, tokens, and Theatre of the Mind scenes. Features V12-compatible maps with advanced tile functionality.",
+  "description": "Enhanced content for Raiders of the Serpent Seas including maps, tokens, and Theatre of the Mind scenes. Compatible with Foundry VTT v11 through v14, with advanced tile functionality powered by Monk's Active Tile Triggers.",
   "version": "12.2.29",
   "minimumCoreVersion": "11",
   "compatibleCoreVersion": "14",
@@ -44,17 +44,11 @@
       {
         "id": "monks-active-tiles",
         "type": "module",
-        "manifest": "https://github.com/ironmonk88/monks-active-tiles/releases/latest/download/module.json",
-        "compatibility": {
-          "verified": "11.5"
-        }
+        "manifest": "https://github.com/ironmonk88/monks-active-tiles/releases/latest/download/module.json"
       },
       {
         "id": "tagger",
-        "type": "module",
-        "compatibility": {
-          "verified": "11.0"
-        }
+        "type": "module"
       },
       {
         "id": "JB2A_DnD5e",

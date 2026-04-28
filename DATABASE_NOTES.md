@@ -24,15 +24,20 @@
    - Format: `[id]-thumb.webp`
 
 ## Important Scripts
-1. `generate-thumbnails.js`:
-   - Creates thumbnails from map files
-   - Uses sharp for image processing
-   - Maintains aspect ratio with max width/height of 400px
-   - Saves thumbnails to assets/scenes directory
+1. `fix-thumbnails.js`:
+   - Reconciles thumbnails in `assets/scenes/` against map files in `maps/`
+   - Generates missing thumbnails using `sharp`
+   - Saves thumbnails to `assets/scenes/`
 
 2. `check-scene-data.js`:
    - Reads scene data from LevelDB database
    - Useful for verifying scene entries and paths
+
+3. `cleanup-thumbnails.js` / `cleanup-wrong-size.js`:
+   - Remove orphaned or incorrectly sized thumbnails
+
+4. `update-thumbnail-paths.js`:
+   - Repairs DB thumbnail path references to match physical files
 
 ## Common Issues & Solutions
 1. 404 Errors for Thumbnails:

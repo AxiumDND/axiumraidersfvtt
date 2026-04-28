@@ -1,6 +1,7 @@
-# Backup folder
+# Backup folders
 backup/
 backup/*
+temp_backup/
 
 # Node.js dependencies and files
 node_modules/
