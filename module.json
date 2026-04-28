@@ -2,7 +2,7 @@
   "id": "axiumraidersfvtt",
   "title": "Axium's Raiders of the Serpent Sea",
   "description": "Enhanced content for Raiders of the Serpent Seas including maps, tokens, and Theatre of the Mind scenes. Compatible with Foundry VTT v11 through v14, with advanced tile functionality powered by Monk's Active Tile Triggers.",
-  "version": "12.2.29",
+  "version": "14.0.0",
   "minimumCoreVersion": "11",
   "compatibleCoreVersion": "14",
   "compatibility": {
@@ -160,7 +160,7 @@
   "languages": [],
   "url": "https://github.com/AxiumDND/axiumraidersfvtt",
   "manifest": "https://raw.githubusercontent.com/AxiumDND/axiumraidersfvtt/main/module.json",
-  "download": "https://github.com/AxiumDND/axiumraidersfvtt/archive/refs/tags/v12.2.29.zip",
+  "download": "https://github.com/AxiumDND/axiumraidersfvtt/archive/refs/tags/v14.0.0.zip",
   "license": "MIT",
   "readme": "README.md",
   "bugs": "https://github.com/AxiumDND/axiumraidersfvtt/issues",
