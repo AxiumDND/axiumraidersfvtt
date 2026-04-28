@@ -4,11 +4,11 @@
   "description": "Enhanced content for Raiders of the Serpent Seas including maps, tokens, and Theatre of the Mind scenes. Features V12-compatible maps with advanced tile functionality.",
   "version": "12.2.29",
   "minimumCoreVersion": "11",
-  "compatibleCoreVersion": "13",
+  "compatibleCoreVersion": "14",
   "compatibility": {
     "minimum": "11",
-    "verified": "13",
-    "maximum": "13"
+    "verified": "14",
+    "maximum": "14"
   },
   "authors": [
     {
