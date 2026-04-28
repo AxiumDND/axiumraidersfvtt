@@ -1,0 +1,27 @@
+# Default: treat files as text, normalize to LF in the repo.
+# Cross-platform contributors get correct line endings without relying on
+# core.autocrlf settings.
+* text=auto eol=lf
+
+# LevelDB files — must remain byte-exact across platforms.
+# Without this, Git's autocrlf will mangle CURRENT/LOG and the DB will not open on Windows.
+# Patterns are unprefixed so they apply anywhere in the tree (we have LevelDBs both in
+# packs/ and inside tiles/), but they only match LevelDB-shaped filenames.
+CURRENT                   binary
+LOCK                      binary
+LOG                       binary
+LOG.old                   binary
+MANIFEST-*                binary
+*.ldb                     binary
+*.log                     binary
+
+# Image and audio assets stay binary too.
+*.webp                    binary
+*.webm                    binary
+*.png                     binary
+*.jpg                     binary
+*.jpeg                    binary
+*.gif                     binary
+*.mp3                     binary
+*.ogg                     binary
+*.wav                     binary

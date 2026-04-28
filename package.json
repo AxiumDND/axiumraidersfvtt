@@ -1,0 +1,30 @@
+{
+  "name": "axiumraidersfvtt",
+  "version": "14.0.2",
+  "private": true,
+  "description": "Maintenance tooling for the Axium's Raiders of the Serpent Sea Foundry VTT module. The module itself is content-only (manifested via module.json); this package.json supports the local Node scripts under ./scripts that audit and repair the LevelDB compendium packs.",
+  "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "audit:thumbnails": "node scripts/audit-thumbnails.js",
+    "verify:thumb-paths": "node scripts/verify-thumb-paths.js",
+    "fix:thumb-paths": "node scripts/fix-thumb-paths.js",
+    "fix:thumb-paths:dry": "node scripts/fix-thumb-paths.js --dry-run",
+    "gen:missing-thumbs": "node scripts/generate-missing-thumbs.js"
+  },
+  "devDependencies": {
+    "classic-level": "^1.4.1",
+    "sharp": "^0.33.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AxiumDND/axiumraidersfvtt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AxiumDND/axiumraidersfvtt/issues"
+  },
+  "homepage": "https://github.com/AxiumDND/axiumraidersfvtt#readme"
+}

@@ -3,27 +3,27 @@ backup/
 backup/*
 temp_backup/
 
-# Node.js dependencies and files
+# Node.js dependencies
 node_modules/
-package.json
-package-lock.json
 
-# Generated thumbnails script (development only)
-scripts/generate-thumbnails.js
+# Temporary unpacked compendium output
+tmp-unpacked/
 
-# LevelDB temporary files (excluding packs directory)
-!packs/**/*.log
-!packs/**/*.ldb
-!packs/**/MANIFEST-*
-!packs/**/CURRENT
-!packs/**/LOG
-!packs/**/LOG.old
+# Stray LevelDB files outside packs/ (e.g. accidentally dropped at repo root)
 *.log
 *.ldb
 MANIFEST-*
 CURRENT
 LOG
 LOG.old
+# But ALWAYS track LevelDB files inside the compendium packs.
+# (Order matters: negations must follow the broad ignores above.)
+!packs/**/*.log
+!packs/**/*.ldb
+!packs/**/MANIFEST-*
+!packs/**/CURRENT
+!packs/**/LOG
+!packs/**/LOG.old
 
 # System files
 .DS_Store
